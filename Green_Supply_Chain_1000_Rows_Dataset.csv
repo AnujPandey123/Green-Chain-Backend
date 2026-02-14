@@ -1,0 +1,1001 @@
+Order_ID,Order_Number,Product_Category,Origin_City,Destination_City,Region,Shipping_Mode,Distance_km,Shipment_Weight_tons,Emission_Factor_kgCO2_per_ton_km,Carbon_Emission_kgCO2,Delivery_Time_days,Late_Delivery_Flag,Sales_Amount_INR,Profit_INR,Sustainability_Score
+1,ORD00001,Pharmaceuticals,Mumbai,Pune,North India,Road - Heavy Truck,1176,0.74,0.08,69.62,2,0,28264.73,10122.69,99.65
+2,ORD00002,Pharmaceuticals,Pune,Chennai,West India,Road - Heavy Truck,1002,1.39,0.08,111.42,4,0,53008.75,20781.51,99.44
+3,ORD00003,Apparel,Kolkata,Bangalore,South India,Rail,76,8.19,0.02,12.45,7,0,77086.7,27142.4,99.94
+4,ORD00004,Apparel,Delhi,Ahmedabad,North India,Rail,1606,1.47,0.02,47.22,10,1,14188.06,2067.93,89.76
+5,ORD00005,Pharmaceuticals,Chennai,Mumbai,North India,Air,1250,1.25,0.6,937.5,6,0,83793.44,17969.01,95.31
+6,ORD00006,Apparel,Ahmedabad,Hyderabad,South India,Road - Medium Truck,376,7.84,0.1,294.78,7,0,86255.18,12080.46,98.53
+7,ORD00007,Pharmaceuticals,Bangalore,Chennai,South India,Rail,1143,3.88,0.02,88.7,2,0,71672.93,13971.61,99.56
+8,ORD00008,Furniture,Delhi,Hyderabad,West India,Air,2331,4.1,0.6,5734.26,1,0,25863.44,7829.26,71.33
+9,ORD00009,Groceries,Pune,Ahmedabad,South India,Rail,2373,1.13,0.02,53.63,11,1,88254.92,26970.41,89.73
+10,ORD00010,Pharmaceuticals,Pune,Hyderabad,South India,Rail,2349,1.83,0.02,85.97,7,0,56202.84,9885.85,99.57
+11,ORD00011,Furniture,Pune,Mumbai,West India,Road - Medium Truck,422,5.34,0.1,225.35,3,0,76799.3,10880.09,98.87
+12,ORD00012,Electronics,Kolkata,Hyderabad,North India,Air,1967,6.16,0.6,7270.03,1,0,55265.86,6006.1,63.65
+13,ORD00013,Apparel,Bangalore,Mumbai,East India,Rail,1908,4.63,0.02,176.68,12,1,5308.31,973.4,89.12
+14,ORD00014,Electronics,Hyderabad,Ahmedabad,North India,Road - Medium Truck,711,1.95,0.1,138.65,9,1,56241.01,9359.18,89.31
+15,ORD00015,Electronics,Mumbai,Ahmedabad,North India,Road - Heavy Truck,1309,9.33,0.08,977.04,10,1,27747.97,9094.08,85.11
+16,ORD00016,Pharmaceuticals,Pune,Chennai,South India,Road - Medium Truck,1996,1.72,0.1,343.31,9,1,94950.62,33276.58,88.28
+17,ORD00017,Furniture,Chennai,Mumbai,East India,Rail,1579,4.29,0.02,135.48,2,0,46619.51,11409.06,99.32
+18,ORD00018,Electronics,Chennai,Mumbai,North India,Road - Heavy Truck,992,6.09,0.08,483.3,12,1,60901.81,24229.34,87.58
+19,ORD00019,Furniture,Ahmedabad,Chennai,West India,Rail,1024,1.17,0.02,23.96,9,1,31455.34,8001.47,89.88
+20,ORD00020,Groceries,Delhi,Mumbai,North India,Air,447,2.31,0.6,619.54,7,0,67603.36,19855.83,96.9
+21,ORD00021,Furniture,Pune,Bangalore,East India,Air,497,7.42,0.6,2212.64,8,1,28622.35,9815.67,78.94
+22,ORD00022,Electronics,Delhi,Delhi,North India,Air,358,2.87,0.6,616.48,9,1,47097.42,6668.77,86.92
+23,ORD00023,Furniture,Pune,Delhi,West India,Road - Medium Truck,2039,2.08,0.1,424.11,1,0,50729.05,7132.75,97.88
+24,ORD00024,Pharmaceuticals,Ahmedabad,Bangalore,South India,Rail,1913,9.3,0.02,355.82,12,1,32098.68,6131.57,88.22
+25,ORD00025,Apparel,Delhi,Delhi,West India,Rail,289,2.57,0.02,14.85,12,1,60022.13,14245.74,89.93
+26,ORD00026,Electronics,Chennai,Pune,North India,Road - Medium Truck,2130,1.04,0.1,221.52,10,1,12610.59,4341.23,88.89
+27,ORD00027,Pharmaceuticals,Hyderabad,Kolkata,South India,Road - Medium Truck,212,6.0,0.1,127.2,10,1,63841.24,17507.34,89.36
+28,ORD00028,Apparel,Mumbai,Delhi,West India,Rail,1671,2.77,0.02,92.57,8,1,17433.44,3597.39,89.54
+29,ORD00029,Electronics,Chennai,Hyderabad,East India,Road - Heavy Truck,923,1.2,0.08,88.61,6,0,53059.05,19115.21,99.56
+30,ORD00030,Pharmaceuticals,Delhi,Kolkata,North India,Road - Medium Truck,2275,4.66,0.1,1060.15,11,1,71836.29,15552.32,84.7
+31,ORD00031,Pharmaceuticals,Chennai,Hyderabad,South India,Road - Medium Truck,488,3.01,0.1,146.89,5,0,75529.58,26689.56,99.27
+32,ORD00032,Groceries,Kolkata,Delhi,North India,Rail,1078,5.3,0.02,114.27,2,0,91006.97,13302.39,99.43
+33,ORD00033,Groceries,Delhi,Mumbai,North India,Rail,1122,7.83,0.02,175.71,12,1,20350.29,5442.67,89.12
+34,ORD00034,Electronics,Kolkata,Hyderabad,North India,Road - Medium Truck,1562,5.68,0.1,887.22,3,0,60338.41,21454.64,95.56
+35,ORD00035,Groceries,Bangalore,Chennai,South India,Rail,1072,2.5,0.02,53.6,9,1,68358.67,20090.37,89.73
+36,ORD00036,Furniture,Kolkata,Bangalore,North India,Road - Medium Truck,151,8.87,0.1,133.94,7,0,22039.26,2703.2,99.33
+37,ORD00037,Apparel,Kolkata,Chennai,South India,Air,1977,8.79,0.6,10426.7,8,1,26131.2,4050.96,37.87
+38,ORD00038,Apparel,Pune,Hyderabad,North India,Road - Heavy Truck,1682,6.77,0.08,910.97,5,0,36184.89,5091.0,95.45
+39,ORD00039,Electronics,Mumbai,Pune,East India,Road - Heavy Truck,1119,8.83,0.08,790.46,5,0,21963.94,2443.26,96.05
+40,ORD00040,Apparel,Delhi,Pune,North India,Rail,2144,4.65,0.02,199.39,4,0,15986.35,2080.6,99.0
+41,ORD00041,Apparel,Mumbai,Kolkata,East India,Road - Medium Truck,336,3.96,0.1,133.06,10,1,95143.08,11775.74,89.33
+42,ORD00042,Groceries,Bangalore,Kolkata,West India,Air,1261,3.6,0.6,2723.76,11,1,57669.19,19748.7,76.38
+43,ORD00043,Apparel,Ahmedabad,Ahmedabad,West India,Road - Heavy Truck,910,3.39,0.08,246.79,11,1,45839.37,10359.91,88.77
+44,ORD00044,Pharmaceuticals,Hyderabad,Mumbai,South India,Road - Medium Truck,745,5.36,0.1,399.32,11,1,67590.82,21281.92,88.0
+45,ORD00045,Pharmaceuticals,Mumbai,Ahmedabad,West India,Rail,865,2.63,0.02,45.5,8,1,18998.63,7336.05,89.77
+46,ORD00046,Electronics,Mumbai,Pune,South India,Road - Medium Truck,1622,7.32,0.1,1187.3,11,1,51965.83,16982.68,84.06
+47,ORD00047,Groceries,Bangalore,Ahmedabad,East India,Road - Medium Truck,2171,8.14,0.1,1767.19,2,0,49132.24,11436.92,91.16
+48,ORD00048,Furniture,Ahmedabad,Ahmedabad,East India,Air,2117,6.32,0.6,8027.66,8,1,45540.37,5826.6,49.86
+49,ORD00049,Furniture,Kolkata,Ahmedabad,North India,Road - Medium Truck,1185,8.48,0.1,1004.88,11,1,77752.3,18941.24,84.98
+50,ORD00050,Furniture,Chennai,Pune,South India,Rail,1425,2.73,0.02,77.81,3,0,35372.41,8417.02,99.61
+51,ORD00051,Furniture,Pune,Pune,North India,Road - Medium Truck,1719,1.11,0.1,190.81,1,0,36433.73,9480.88,99.05
+52,ORD00052,Pharmaceuticals,Chennai,Ahmedabad,South India,Air,1490,5.03,0.6,4496.82,7,0,33368.2,9443.33,77.52
+53,ORD00053,Furniture,Ahmedabad,Bangalore,North India,Rail,168,4.64,0.02,15.59,7,0,41941.43,8360.52,99.92
+54,ORD00054,Furniture,Delhi,Kolkata,West India,Air,161,6.12,0.6,591.19,8,1,12975.01,3521.63,87.04
+55,ORD00055,Groceries,Kolkata,Mumbai,West India,Rail,1388,2.51,0.02,69.68,5,0,37062.55,5044.51,99.65
+56,ORD00056,Electronics,Delhi,Delhi,South India,Road - Heavy Truck,263,7.62,0.08,160.32,11,1,99991.24,29498.61,89.2
+57,ORD00057,Pharmaceuticals,Chennai,Ahmedabad,East India,Road - Medium Truck,674,8.47,0.1,570.88,2,0,27661.77,7134.85,97.15
+58,ORD00058,Electronics,Delhi,Kolkata,West India,Rail,519,2.09,0.02,21.69,5,0,78890.23,27680.24,99.89
+59,ORD00059,Furniture,Mumbai,Kolkata,North India,Air,862,9.44,0.6,4882.37,11,1,12219.67,2356.14,65.59
+60,ORD00060,Apparel,Delhi,Pune,West India,Road - Heavy Truck,1804,3.8,0.08,548.42,11,1,67844.53,25734.31,87.26
+61,ORD00061,Furniture,Pune,Bangalore,East India,Road - Heavy Truck,1533,4.62,0.08,566.6,12,1,65380.59,9897.82,87.17
+62,ORD00062,Apparel,Ahmedabad,Chennai,West India,Air,2476,4.92,0.6,7309.15,2,0,30497.58,4406.47,63.45
+63,ORD00063,Apparel,Kolkata,Hyderabad,East India,Air,2074,3.7,0.6,4604.28,4,0,85840.52,29653.44,76.98
+64,ORD00064,Groceries,Ahmedabad,Chennai,West India,Rail,2166,5.78,0.02,250.39,12,1,95065.94,35584.71,88.75
+65,ORD00065,Furniture,Kolkata,Hyderabad,West India,Air,120,4.76,0.6,342.72,12,1,13840.07,4615.96,88.29
+66,ORD00066,Apparel,Kolkata,Chennai,North India,Rail,2304,4.54,0.02,209.2,5,0,36425.17,6889.58,98.95
+67,ORD00067,Furniture,Ahmedabad,Kolkata,East India,Road - Medium Truck,2244,3.5,0.1,785.4,4,0,95333.37,18394.66,96.07
+68,ORD00068,Pharmaceuticals,Bangalore,Kolkata,North India,Road - Heavy Truck,1263,8.41,0.08,849.75,1,0,26610.9,9211.83,95.75
+69,ORD00069,Electronics,Kolkata,Ahmedabad,West India,Road - Heavy Truck,567,5.76,0.08,261.27,2,0,65597.62,11424.64,98.69
+70,ORD00070,Electronics,Pune,Ahmedabad,North India,Air,260,3.74,0.6,583.44,2,0,28985.45,4100.95,97.08
+71,ORD00071,Electronics,Pune,Chennai,West India,Road - Heavy Truck,2355,1.94,0.08,365.5,4,0,95166.94,35634.85,98.17
+72,ORD00072,Pharmaceuticals,Delhi,Mumbai,South India,Air,1267,9.13,0.6,6940.63,5,0,86715.83,8930.92,65.3
+73,ORD00073,Furniture,Delhi,Pune,West India,Road - Medium Truck,382,3.01,0.1,114.98,2,0,19920.42,6929.44,99.43
+74,ORD00074,Electronics,Chennai,Kolkata,South India,Air,998,3.27,0.6,1958.08,8,1,32369.96,10202.51,80.21
+75,ORD00075,Electronics,Delhi,Bangalore,East India,Air,970,1.59,0.6,925.38,3,0,66525.3,8480.42,95.37
+76,ORD00076,Pharmaceuticals,Ahmedabad,Ahmedabad,North India,Rail,1969,4.67,0.02,183.9,5,0,70424.41,13386.26,99.08
+77,ORD00077,Pharmaceuticals,Delhi,Kolkata,North India,Road - Heavy Truck,1370,8.95,0.08,980.92,4,0,62352.8,24457.3,95.1
+78,ORD00078,Groceries,Ahmedabad,Mumbai,West India,Road - Medium Truck,1861,4.97,0.1,924.92,10,1,92026.91,31800.2,85.38
+79,ORD00079,Groceries,Ahmedabad,Kolkata,West India,Rail,1365,4.38,0.02,119.57,6,0,68662.68,9796.8,99.4
+80,ORD00080,Pharmaceuticals,Delhi,Ahmedabad,West India,Road - Heavy Truck,1338,4.82,0.08,515.93,7,0,28977.89,10583.41,97.42
+81,ORD00081,Electronics,Chennai,Kolkata,South India,Road - Heavy Truck,1531,2.28,0.08,279.25,8,1,64150.22,16066.56,88.6
+82,ORD00082,Furniture,Bangalore,Kolkata,North India,Rail,2035,4.66,0.02,189.66,10,1,16535.48,1786.76,89.05
+83,ORD00083,Groceries,Kolkata,Kolkata,West India,Air,514,1.39,0.6,428.68,3,0,48837.55,17813.99,97.86
+84,ORD00084,Pharmaceuticals,Bangalore,Mumbai,East India,Air,1048,9.81,0.6,6168.53,4,0,48394.71,17257.91,69.16
+85,ORD00085,Apparel,Ahmedabad,Bangalore,West India,Air,2129,3.73,0.6,4764.7,12,1,30381.4,12129.18,66.18
+86,ORD00086,Furniture,Chennai,Pune,South India,Air,2310,3.78,0.6,5239.08,6,0,77472.9,22222.09,73.8
+87,ORD00087,Furniture,Ahmedabad,Delhi,South India,Air,1987,0.91,0.6,1084.9,7,0,71996.65,11273.04,94.58
+88,ORD00088,Furniture,Pune,Bangalore,North India,Rail,1853,8.76,0.02,324.65,1,0,14472.61,1836.1,98.38
+89,ORD00089,Electronics,Hyderabad,Pune,East India,Air,1135,7.92,0.6,5393.52,11,1,37163.32,7142.37,63.03
+90,ORD00090,Apparel,Chennai,Mumbai,West India,Air,197,8.79,0.6,1038.98,11,1,63658.65,20979.91,84.81
+91,ORD00091,Electronics,Hyderabad,Delhi,East India,Road - Heavy Truck,461,7.72,0.08,284.71,1,0,47149.46,9043.25,98.58
+92,ORD00092,Furniture,Bangalore,Bangalore,North India,Rail,646,4.06,0.02,52.46,11,1,28198.76,7793.7,89.74
+93,ORD00093,Groceries,Kolkata,Ahmedabad,East India,Air,1036,6.39,0.6,3972.02,4,0,52278.39,11765.4,80.14
+94,ORD00094,Electronics,Ahmedabad,Hyderabad,East India,Road - Heavy Truck,1955,9.04,0.08,1413.86,3,0,90614.9,17825.47,92.93
+95,ORD00095,Groceries,Mumbai,Chennai,West India,Air,1921,7.06,0.6,8137.36,7,0,85303.87,29023.35,59.31
+96,ORD00096,Apparel,Delhi,Delhi,West India,Rail,1259,5.96,0.02,150.07,7,0,7084.26,1069.64,99.25
+97,ORD00097,Furniture,Kolkata,Bangalore,North India,Rail,992,7.87,0.02,156.14,11,1,62671.17,18444.36,89.22
+98,ORD00098,Electronics,Kolkata,Hyderabad,West India,Road - Heavy Truck,1855,3.43,0.08,509.01,3,0,8169.63,2373.62,97.45
+99,ORD00099,Apparel,Bangalore,Kolkata,West India,Road - Medium Truck,2259,2.41,0.1,544.42,9,1,88263.76,25617.92,87.28
+100,ORD00100,Furniture,Chennai,Pune,East India,Rail,1437,7.59,0.02,218.14,2,0,81402.09,21123.89,98.91
+101,ORD00101,Apparel,Pune,Hyderabad,North India,Road - Heavy Truck,107,8.01,0.08,68.57,6,0,30123.56,10932.54,99.66
+102,ORD00102,Electronics,Ahmedabad,Kolkata,West India,Road - Medium Truck,2349,4.98,0.1,1169.8,11,1,36160.6,7845.96,84.15
+103,ORD00103,Furniture,Bangalore,Pune,West India,Road - Heavy Truck,202,1.83,0.08,29.57,2,0,33914.64,8553.7,99.85
+104,ORD00104,Groceries,Mumbai,Ahmedabad,West India,Rail,2262,6.87,0.02,310.8,3,0,44817.04,7946.93,98.45
+105,ORD00105,Apparel,Mumbai,Hyderabad,East India,Rail,1567,0.81,0.02,25.39,4,0,25640.62,6835.56,99.87
+106,ORD00106,Electronics,Chennai,Delhi,North India,Road - Heavy Truck,827,4.28,0.08,283.16,8,1,96979.65,11181.44,88.58
+107,ORD00107,Furniture,Chennai,Chennai,East India,Rail,565,2.81,0.02,31.75,9,1,79762.92,26994.83,89.84
+108,ORD00108,Furniture,Kolkata,Bangalore,North India,Road - Medium Truck,2491,7.99,0.1,1990.31,3,0,5269.38,750.77,90.05
+109,ORD00109,Electronics,Bangalore,Kolkata,North India,Road - Heavy Truck,1517,1.75,0.08,212.38,6,0,80048.54,26305.59,98.94
+110,ORD00110,Apparel,Mumbai,Ahmedabad,South India,Road - Medium Truck,2204,7.55,0.1,1664.02,8,1,15796.68,6017.47,81.68
+111,ORD00111,Electronics,Ahmedabad,Pune,West India,Road - Heavy Truck,2185,7.41,0.08,1295.27,1,0,33654.88,6966.49,93.52
+112,ORD00112,Furniture,Mumbai,Bangalore,East India,Road - Heavy Truck,1866,5.16,0.08,770.28,10,1,11981.62,4502.25,86.15
+113,ORD00113,Groceries,Mumbai,Mumbai,South India,Rail,2496,4.12,0.02,205.67,10,1,55402.9,14620.02,88.97
+114,ORD00114,Groceries,Mumbai,Hyderabad,West India,Air,985,4.79,0.6,2830.89,7,0,44312.29,6725.46,85.85
+115,ORD00115,Electronics,Mumbai,Mumbai,North India,Rail,1583,6.82,0.02,215.92,8,1,95591.29,18540.28,88.92
+116,ORD00116,Pharmaceuticals,Hyderabad,Mumbai,West India,Air,1576,1.42,0.6,1342.75,10,1,82118.08,19140.8,83.29
+117,ORD00117,Pharmaceuticals,Kolkata,Hyderabad,North India,Rail,1782,8.8,0.02,313.63,5,0,87468.75,16066.42,98.43
+118,ORD00118,Apparel,Mumbai,Kolkata,South India,Road - Medium Truck,2025,1.97,0.1,398.93,9,1,26303.26,9667.36,88.01
+119,ORD00119,Apparel,Delhi,Bangalore,East India,Air,2330,8.53,0.6,11924.94,12,1,7494.11,908.85,30.38
+120,ORD00120,Groceries,Mumbai,Bangalore,North India,Rail,1487,9.25,0.02,275.1,10,1,5580.05,775.86,88.62
+121,ORD00121,Apparel,Kolkata,Hyderabad,North India,Road - Heavy Truck,931,7.59,0.08,565.3,3,0,40738.47,10751.14,97.17
+122,ORD00122,Groceries,Ahmedabad,Ahmedabad,West India,Road - Heavy Truck,253,1.98,0.08,40.08,11,1,69027.03,21976.08,89.8
+123,ORD00123,Pharmaceuticals,Ahmedabad,Kolkata,North India,Rail,2148,2.55,0.02,109.55,5,0,15812.66,4285.64,99.45
+124,ORD00124,Furniture,Kolkata,Kolkata,East India,Road - Medium Truck,274,4.26,0.1,116.72,4,0,5730.27,1773.94,99.42
+125,ORD00125,Furniture,Hyderabad,Mumbai,West India,Road - Heavy Truck,1813,0.57,0.08,82.67,12,1,21691.01,6202.28,89.59
+126,ORD00126,Groceries,Pune,Pune,East India,Road - Heavy Truck,1933,4.64,0.08,717.53,10,1,92510.43,13077.92,86.41
+127,ORD00127,Apparel,Mumbai,Pune,North India,Road - Heavy Truck,1380,4.35,0.08,480.24,8,1,21327.95,2467.98,87.6
+128,ORD00128,Apparel,Chennai,Hyderabad,South India,Road - Medium Truck,1690,4.64,0.1,784.16,5,0,54776.44,15406.97,96.08
+129,ORD00129,Apparel,Bangalore,Chennai,North India,Road - Heavy Truck,517,5.35,0.08,221.28,6,0,55407.46,18939.87,98.89
+130,ORD00130,Electronics,Bangalore,Ahmedabad,West India,Road - Medium Truck,760,2.93,0.1,222.68,11,1,62227.9,10699.18,88.89
+131,ORD00131,Apparel,Bangalore,Ahmedabad,North India,Air,2362,6.97,0.6,9877.88,6,0,66084.22,6875.43,50.61
+132,ORD00132,Pharmaceuticals,Mumbai,Kolkata,West India,Air,1290,4.7,0.6,3637.8,6,0,80651.32,17950.89,81.81
+133,ORD00133,Pharmaceuticals,Pune,Ahmedabad,North India,Air,1560,0.86,0.6,804.96,2,0,84011.18,31670.59,95.98
+134,ORD00134,Pharmaceuticals,Bangalore,Delhi,West India,Air,2391,9.14,0.6,13112.24,8,1,66924.56,20314.41,24.44
+135,ORD00135,Furniture,Delhi,Chennai,West India,Road - Heavy Truck,1456,8.2,0.08,955.14,11,1,98326.63,36843.11,85.22
+136,ORD00136,Groceries,Hyderabad,Delhi,East India,Air,700,5.48,0.6,2301.6,7,0,39570.31,4931.21,88.49
+137,ORD00137,Pharmaceuticals,Bangalore,Hyderabad,North India,Road - Heavy Truck,2335,3.63,0.08,678.08,12,1,69446.04,21858.55,86.61
+138,ORD00138,Furniture,Mumbai,Kolkata,West India,Road - Medium Truck,1320,9.21,0.1,1215.72,7,0,96931.17,18461.12,93.92
+139,ORD00139,Apparel,Delhi,Hyderabad,East India,Rail,2206,8.23,0.02,363.11,9,1,13878.03,2759.83,88.18
+140,ORD00140,Furniture,Bangalore,Mumbai,East India,Road - Medium Truck,1449,9.54,0.1,1382.35,4,0,95028.49,24148.52,93.09
+141,ORD00141,Apparel,Bangalore,Pune,South India,Road - Heavy Truck,2260,5.32,0.08,961.86,1,0,84336.38,11376.59,95.19
+142,ORD00142,Furniture,Ahmedabad,Kolkata,West India,Road - Medium Truck,728,2.22,0.1,161.62,6,0,73512.38,28441.37,99.19
+143,ORD00143,Apparel,Ahmedabad,Ahmedabad,East India,Road - Medium Truck,1317,5.57,0.1,733.57,4,0,96731.68,15930.64,96.33
+144,ORD00144,Furniture,Kolkata,Delhi,West India,Air,1764,5.28,0.6,5588.35,10,1,96795.47,14996.78,62.06
+145,ORD00145,Apparel,Mumbai,Bangalore,East India,Rail,470,5.77,0.02,54.24,2,0,72583.09,17799.35,99.73
+146,ORD00146,Groceries,Hyderabad,Delhi,West India,Air,653,9.1,0.6,3565.38,4,0,83949.44,31269.99,82.17
+147,ORD00147,Furniture,Delhi,Hyderabad,North India,Road - Heavy Truck,1581,4.27,0.08,540.07,6,0,27398.92,2784.89,97.3
+148,ORD00148,Furniture,Ahmedabad,Ahmedabad,North India,Rail,613,8.02,0.02,98.33,8,1,8638.8,1077.96,89.51
+149,ORD00149,Pharmaceuticals,Pune,Mumbai,East India,Road - Heavy Truck,933,0.68,0.08,50.76,12,1,84321.49,19845.8,89.75
+150,ORD00150,Groceries,Mumbai,Mumbai,West India,Road - Medium Truck,245,3.36,0.1,82.32,10,1,27651.75,5760.26,89.59
+151,ORD00151,Electronics,Hyderabad,Chennai,West India,Road - Heavy Truck,2405,6.5,0.08,1250.6,7,0,27984.12,9988.29,93.75
+152,ORD00152,Pharmaceuticals,Delhi,Pune,West India,Road - Medium Truck,400,6.81,0.1,272.4,9,1,54731.03,15971.55,88.64
+153,ORD00153,Apparel,Chennai,Mumbai,East India,Road - Heavy Truck,1579,6.54,0.08,826.13,2,0,29096.77,11496.93,95.87
+154,ORD00154,Groceries,Ahmedabad,Bangalore,South India,Road - Medium Truck,2286,0.92,0.1,210.31,11,1,37161.99,7698.53,88.95
+155,ORD00155,Electronics,Hyderabad,Kolkata,West India,Road - Heavy Truck,1924,7.3,0.08,1123.62,4,0,8513.46,2890.51,94.38
+156,ORD00156,Apparel,Kolkata,Mumbai,East India,Air,832,2.91,0.6,1452.67,1,0,32180.54,4548.99,92.74
+157,ORD00157,Groceries,Ahmedabad,Hyderabad,East India,Air,1851,8.95,0.6,9939.87,3,0,89990.56,25557.91,50.3
+158,ORD00158,Pharmaceuticals,Kolkata,Hyderabad,North India,Road - Heavy Truck,373,7.41,0.08,221.11,3,0,45907.68,4658.28,98.89
+159,ORD00159,Furniture,Ahmedabad,Hyderabad,West India,Road - Heavy Truck,1260,3.62,0.08,364.9,7,0,34117.11,7478.93,98.18
+160,ORD00160,Electronics,Mumbai,Pune,East India,Road - Heavy Truck,1494,7.4,0.08,884.45,11,1,63410.89,17090.37,85.58
+161,ORD00161,Electronics,Bangalore,Mumbai,South India,Road - Medium Truck,634,9.55,0.1,605.47,8,1,85623.58,16831.31,86.97
+162,ORD00162,Apparel,Hyderabad,Ahmedabad,North India,Rail,2373,3.94,0.02,186.99,8,1,8076.61,2858.87,89.07
+163,ORD00163,Electronics,Bangalore,Ahmedabad,West India,Road - Medium Truck,1680,5.53,0.1,929.04,2,0,34866.62,11031.56,95.35
+164,ORD00164,Apparel,Ahmedabad,Chennai,North India,Road - Heavy Truck,1116,2.99,0.08,266.95,10,1,71883.59,24126.21,88.67
+165,ORD00165,Apparel,Hyderabad,Mumbai,East India,Road - Medium Truck,1901,8.6,0.1,1634.86,2,0,21402.35,3980.6,91.83
+166,ORD00166,Furniture,Bangalore,Chennai,West India,Rail,763,8.59,0.02,131.08,2,0,80401.16,19889.1,99.34
+167,ORD00167,Furniture,Mumbai,Mumbai,East India,Road - Heavy Truck,2394,3.93,0.08,752.67,9,1,40046.56,6363.46,86.24
+168,ORD00168,Electronics,Bangalore,Hyderabad,North India,Air,2010,10.0,0.6,12060.0,10,1,54941.09,9298.81,29.7
+169,ORD00169,Pharmaceuticals,Bangalore,Bangalore,West India,Air,2169,4.93,0.6,6415.9,9,1,37728.9,5154.22,57.92
+170,ORD00170,Furniture,Hyderabad,Kolkata,North India,Road - Heavy Truck,2172,8.4,0.08,1459.58,6,0,19536.47,6849.54,92.7
+171,ORD00171,Pharmaceuticals,Mumbai,Bangalore,South India,Rail,2306,2.36,0.02,108.84,10,1,31072.85,6602.77,89.46
+172,ORD00172,Electronics,Delhi,Kolkata,South India,Road - Medium Truck,1432,6.76,0.1,968.03,1,0,85040.35,19637.06,95.16
+173,ORD00173,Apparel,Ahmedabad,Chennai,West India,Air,174,6.37,0.6,665.03,5,0,52313.62,11082.68,96.67
+174,ORD00174,Furniture,Hyderabad,Bangalore,East India,Rail,295,4.81,0.02,28.38,8,1,20017.64,5511.13,89.86
+175,ORD00175,Pharmaceuticals,Mumbai,Hyderabad,South India,Rail,1464,7.47,0.02,218.72,6,0,97660.54,35233.01,98.91
+176,ORD00176,Groceries,Pune,Chennai,South India,Air,1891,1.66,0.6,1883.44,5,0,28552.29,10591.66,90.58
+177,ORD00177,Groceries,Ahmedabad,Kolkata,West India,Rail,1330,9.37,0.02,249.24,9,1,23034.24,8112.6,88.75
+178,ORD00178,Pharmaceuticals,Hyderabad,Delhi,North India,Road - Heavy Truck,1660,1.36,0.08,180.61,4,0,53017.22,5831.58,99.1
+179,ORD00179,Groceries,Bangalore,Kolkata,East India,Rail,1977,5.2,0.02,205.61,2,0,32146.1,12779.58,98.97
+180,ORD00180,Pharmaceuticals,Kolkata,Mumbai,West India,Air,1690,3.98,0.6,4035.72,6,0,9859.98,2282.14,79.82
+181,ORD00181,Electronics,Bangalore,Mumbai,West India,Air,1195,7.76,0.6,5563.92,10,1,83404.58,17767.47,62.18
+182,ORD00182,Furniture,Pune,Delhi,North India,Rail,1438,8.05,0.02,231.52,3,0,57994.02,16836.71,98.84
+183,ORD00183,Pharmaceuticals,Bangalore,Hyderabad,East India,Road - Heavy Truck,1414,1.8,0.08,203.62,3,0,81376.76,19872.22,98.98
+184,ORD00184,Pharmaceuticals,Ahmedabad,Kolkata,West India,Road - Medium Truck,1275,4.23,0.1,539.33,9,1,61403.84,15216.21,87.3
+185,ORD00185,Electronics,Ahmedabad,Kolkata,South India,Road - Heavy Truck,498,4.0,0.08,159.36,12,1,98090.31,22059.47,89.2
+186,ORD00186,Furniture,Chennai,Delhi,North India,Road - Heavy Truck,748,6.04,0.08,361.43,7,0,54802.07,10064.13,98.19
+187,ORD00187,Groceries,Ahmedabad,Delhi,South India,Road - Medium Truck,1334,0.68,0.1,90.71,4,0,44784.13,12365.43,99.55
+188,ORD00188,Groceries,Hyderabad,Hyderabad,East India,Road - Medium Truck,2009,5.83,0.1,1171.25,3,0,54920.33,16798.71,94.14
+189,ORD00189,Apparel,Chennai,Ahmedabad,East India,Air,1059,2.33,0.6,1480.48,5,0,31505.61,9780.92,92.6
+190,ORD00190,Groceries,Pune,Hyderabad,South India,Air,1170,3.81,0.6,2674.62,9,1,32339.99,7372.13,76.63
+191,ORD00191,Groceries,Chennai,Chennai,East India,Rail,373,0.9,0.02,6.71,5,0,37904.53,10131.39,99.97
+192,ORD00192,Furniture,Chennai,Delhi,North India,Rail,2453,1.8,0.02,88.31,9,1,27731.8,10670.37,89.56
+193,ORD00193,Pharmaceuticals,Bangalore,Pune,West India,Air,1984,3.64,0.6,4333.06,1,0,14551.77,2455.9,78.33
+194,ORD00194,Pharmaceuticals,Chennai,Delhi,South India,Air,1226,6.68,0.6,4913.81,2,0,35510.93,7323.44,75.43
+195,ORD00195,Groceries,Bangalore,Kolkata,North India,Air,770,8.88,0.6,4102.56,7,0,93722.65,36467.3,79.49
+196,ORD00196,Pharmaceuticals,Ahmedabad,Bangalore,West India,Road - Heavy Truck,489,3.33,0.08,130.27,8,1,93203.21,27913.18,89.35
+197,ORD00197,Apparel,Bangalore,Delhi,East India,Rail,511,2.33,0.02,23.81,11,1,36414.99,6578.89,89.88
+198,ORD00198,Groceries,Hyderabad,Mumbai,West India,Rail,841,5.89,0.02,99.07,7,0,21672.02,3102.48,99.5
+199,ORD00199,Apparel,Pune,Chennai,West India,Road - Heavy Truck,625,2.26,0.08,113.0,1,0,50358.14,6005.33,99.44
+200,ORD00200,Apparel,Chennai,Delhi,North India,Rail,1286,9.56,0.02,245.88,5,0,60333.77,13764.35,98.77
+201,ORD00201,Apparel,Mumbai,Kolkata,East India,Air,1710,3.41,0.6,3498.66,12,1,70176.99,8636.56,72.51
+202,ORD00202,Apparel,Pune,Ahmedabad,South India,Road - Medium Truck,597,2.58,0.1,154.03,10,1,50427.28,13287.91,89.23
+203,ORD00203,Pharmaceuticals,Hyderabad,Mumbai,North India,Road - Medium Truck,2490,6.96,0.1,1733.04,8,1,87947.83,33019.04,81.33
+204,ORD00204,Apparel,Ahmedabad,Mumbai,South India,Road - Heavy Truck,2120,8.37,0.08,1419.55,3,0,24204.89,5785.02,92.9
+205,ORD00205,Pharmaceuticals,Pune,Ahmedabad,North India,Air,2140,1.36,0.6,1746.24,3,0,47320.86,18138.52,91.27
+206,ORD00206,Furniture,Mumbai,Delhi,West India,Air,1312,6.89,0.6,5423.81,1,0,73711.61,20728.84,72.88
+207,ORD00207,Groceries,Delhi,Kolkata,West India,Rail,2266,7.15,0.02,324.04,2,0,99441.75,11895.74,98.38
+208,ORD00208,Groceries,Pune,Mumbai,South India,Road - Medium Truck,1771,7.81,0.1,1383.15,8,1,40573.79,5380.08,83.08
+209,ORD00209,Electronics,Delhi,Kolkata,West India,Rail,2250,1.63,0.02,73.35,4,0,42340.57,15318.64,99.63
+210,ORD00210,Furniture,Mumbai,Delhi,West India,Air,990,5.55,0.6,3296.7,5,0,28513.64,8444.37,83.52
+211,ORD00211,Electronics,Chennai,Delhi,West India,Road - Heavy Truck,325,2.79,0.08,72.54,10,1,14585.19,5687.16,89.64
+212,ORD00212,Pharmaceuticals,Kolkata,Chennai,East India,Air,939,2.73,0.6,1538.08,3,0,76666.64,12817.2,92.31
+213,ORD00213,Apparel,Kolkata,Delhi,South India,Rail,636,2.75,0.02,34.98,7,0,98641.08,24031.4,99.83
+214,ORD00214,Groceries,Hyderabad,Pune,West India,Air,242,5.78,0.6,839.26,11,1,97367.57,11443.03,85.8
+215,ORD00215,Apparel,Bangalore,Ahmedabad,North India,Road - Medium Truck,803,3.35,0.1,269.01,4,0,76669.53,19776.47,98.65
+216,ORD00216,Furniture,Hyderabad,Mumbai,West India,Air,2332,9.69,0.6,13558.25,5,0,55349.22,15690.08,32.21
+217,ORD00217,Pharmaceuticals,Delhi,Mumbai,South India,Rail,830,1.38,0.02,22.91,10,1,9895.98,2838.66,89.89
+218,ORD00218,Furniture,Mumbai,Ahmedabad,South India,Road - Medium Truck,1413,5.05,0.1,713.57,4,0,33802.86,4303.16,96.43
+219,ORD00219,Groceries,Hyderabad,Kolkata,East India,Road - Medium Truck,1030,4.27,0.1,439.81,7,0,57447.53,9613.6,97.8
+220,ORD00220,Groceries,Hyderabad,Chennai,East India,Rail,2086,5.37,0.02,224.04,12,1,49270.39,7841.63,88.88
+221,ORD00221,Apparel,Pune,Kolkata,South India,Rail,2354,4.43,0.02,208.56,1,0,87088.06,15468.95,98.96
+222,ORD00222,Apparel,Kolkata,Ahmedabad,West India,Road - Medium Truck,1605,3.63,0.1,582.62,9,1,59130.0,19293.0,87.09
+223,ORD00223,Furniture,Delhi,Delhi,North India,Air,1492,2.1,0.6,1879.92,8,1,21080.24,3876.78,80.6
+224,ORD00224,Furniture,Delhi,Chennai,West India,Road - Heavy Truck,1739,7.76,0.08,1079.57,2,0,18061.7,3807.22,94.6
+225,ORD00225,Pharmaceuticals,Pune,Delhi,North India,Rail,2029,1.07,0.02,43.42,9,1,67632.01,26733.61,89.78
+226,ORD00226,Groceries,Bangalore,Mumbai,North India,Rail,1224,5.59,0.02,136.84,11,1,6628.55,1034.4,89.32
+227,ORD00227,Electronics,Hyderabad,Pune,West India,Road - Medium Truck,2206,2.79,0.1,615.47,7,0,28979.73,8510.41,96.92
+228,ORD00228,Electronics,Mumbai,Pune,West India,Road - Medium Truck,975,9.91,0.1,966.23,2,0,33497.59,5077.61,95.17
+229,ORD00229,Groceries,Pune,Hyderabad,North India,Air,279,5.75,0.6,962.55,2,0,65491.07,12387.4,95.19
+230,ORD00230,Apparel,Delhi,Bangalore,East India,Road - Heavy Truck,2371,2.68,0.08,508.34,2,0,50172.53,19368.17,97.46
+231,ORD00231,Electronics,Kolkata,Bangalore,South India,Road - Heavy Truck,2454,9.63,0.08,1890.56,7,0,18698.2,2875.65,90.55
+232,ORD00232,Electronics,Hyderabad,Delhi,North India,Air,2264,6.93,0.6,9413.71,3,0,36514.33,6328.56,52.93
+233,ORD00233,Groceries,Hyderabad,Delhi,East India,Air,361,2.71,0.6,586.99,10,1,37356.31,6324.36,87.07
+234,ORD00234,Pharmaceuticals,Pune,Mumbai,East India,Air,1507,5.16,0.6,4665.67,3,0,57538.58,16534.97,76.67
+235,ORD00235,Furniture,Pune,Hyderabad,East India,Road - Medium Truck,386,7.27,0.1,280.62,11,1,30457.34,8710.8,88.6
+236,ORD00236,Furniture,Mumbai,Bangalore,West India,Road - Heavy Truck,1312,1.37,0.08,143.8,2,0,47249.91,8107.9,99.28
+237,ORD00237,Pharmaceuticals,Mumbai,Hyderabad,West India,Air,2148,5.79,0.6,7462.15,6,0,43764.2,17160.88,62.69
+238,ORD00238,Furniture,Bangalore,Pune,South India,Road - Heavy Truck,1638,3.27,0.08,428.5,9,1,79021.07,14425.05,87.86
+239,ORD00239,Apparel,Pune,Kolkata,West India,Road - Medium Truck,1149,3.05,0.1,350.44,7,0,51846.77,19754.65,98.25
+240,ORD00240,Furniture,Ahmedabad,Mumbai,South India,Road - Heavy Truck,1060,3.93,0.08,333.26,10,1,73485.45,18463.9,88.33
+241,ORD00241,Groceries,Hyderabad,Pune,South India,Rail,1670,0.56,0.02,18.7,6,0,36560.64,7821.87,99.91
+242,ORD00242,Apparel,Kolkata,Ahmedabad,South India,Rail,872,3.55,0.02,61.91,7,0,50505.93,17510.85,99.69
+243,ORD00243,Pharmaceuticals,Bangalore,Delhi,West India,Rail,1659,4.07,0.02,135.04,4,0,39676.48,4776.25,99.32
+244,ORD00244,Groceries,Bangalore,Kolkata,South India,Road - Medium Truck,1243,4.67,0.1,580.48,7,0,83971.77,31846.5,97.1
+245,ORD00245,Groceries,Pune,Pune,North India,Rail,1783,6.76,0.02,241.06,10,1,79962.29,30210.59,88.79
+246,ORD00246,Furniture,Hyderabad,Bangalore,North India,Rail,2249,7.17,0.02,322.51,2,0,61412.89,7718.35,98.39
+247,ORD00247,Electronics,Kolkata,Chennai,South India,Air,1408,9.68,0.6,8177.66,1,0,96743.09,26204.16,59.11
+248,ORD00248,Furniture,Hyderabad,Delhi,West India,Air,1946,4.05,0.6,4728.78,9,1,78372.51,17510.22,66.36
+249,ORD00249,Apparel,Kolkata,Hyderabad,West India,Road - Heavy Truck,401,3.31,0.08,106.18,3,0,16026.59,1887.89,99.47
+250,ORD00250,Groceries,Hyderabad,Mumbai,East India,Road - Medium Truck,1476,5.45,0.1,804.42,12,1,50235.44,13490.74,85.98
+251,ORD00251,Furniture,Chennai,Bangalore,South India,Road - Heavy Truck,521,8.2,0.08,341.78,2,0,7145.59,2122.79,98.29
+252,ORD00252,Furniture,Pune,Pune,North India,Rail,1942,5.82,0.02,226.05,3,0,27026.28,7526.43,98.87
+253,ORD00253,Apparel,Mumbai,Mumbai,South India,Road - Medium Truck,1809,4.77,0.1,862.89,4,0,41939.4,7908.9,95.69
+254,ORD00254,Pharmaceuticals,Hyderabad,Pune,West India,Rail,1924,3.6,0.02,138.53,8,1,15825.72,3145.99,89.31
+255,ORD00255,Apparel,Mumbai,Bangalore,East India,Road - Heavy Truck,1925,3.81,0.08,586.74,12,1,63649.45,9921.58,87.07
+256,ORD00256,Groceries,Pune,Bangalore,West India,Road - Heavy Truck,529,2.77,0.08,117.23,9,1,22389.23,4298.04,89.41
+257,ORD00257,Pharmaceuticals,Bangalore,Ahmedabad,East India,Air,2251,2.26,0.6,3052.36,3,0,70876.13,14630.39,84.74
+258,ORD00258,Groceries,Bangalore,Chennai,West India,Road - Medium Truck,1897,2.28,0.1,432.52,1,0,63843.95,8960.07,97.84
+259,ORD00259,Furniture,Mumbai,Delhi,South India,Air,2064,4.39,0.6,5436.58,8,1,44484.89,6585.21,62.82
+260,ORD00260,Pharmaceuticals,Ahmedabad,Mumbai,North India,Rail,970,0.81,0.02,15.71,8,1,56072.82,19599.54,89.92
+261,ORD00261,Groceries,Chennai,Pune,North India,Rail,1552,7.86,0.02,243.97,12,1,56494.12,9771.46,88.78
+262,ORD00262,Groceries,Mumbai,Chennai,South India,Road - Medium Truck,182,3.33,0.1,60.61,2,0,47724.57,14099.12,99.7
+263,ORD00263,Furniture,Delhi,Hyderabad,East India,Rail,1803,8.68,0.02,313.0,4,0,20768.25,7439.8,98.44
+264,ORD00264,Electronics,Bangalore,Pune,North India,Road - Medium Truck,1248,3.57,0.1,445.54,9,1,32486.66,10389.14,87.77
+265,ORD00265,Apparel,Chennai,Pune,West India,Rail,569,8.74,0.02,99.46,3,0,71635.52,25802.59,99.5
+266,ORD00266,Electronics,Pune,Kolkata,East India,Road - Medium Truck,1150,5.99,0.1,688.85,2,0,64642.22,18581.3,96.56
+267,ORD00267,Electronics,Ahmedabad,Hyderabad,North India,Air,1390,9.53,0.6,7948.02,12,1,60285.78,8399.48,50.26
+268,ORD00268,Apparel,Hyderabad,Bangalore,West India,Air,1809,2.57,0.6,2789.48,6,0,83360.53,20972.3,86.05
+269,ORD00269,Electronics,Mumbai,Bangalore,West India,Rail,248,8.99,0.02,44.59,8,1,9364.58,1986.66,89.78
+270,ORD00270,Apparel,Bangalore,Kolkata,North India,Air,1802,0.51,0.6,551.41,3,0,24220.23,4684.74,97.24
+271,ORD00271,Groceries,Kolkata,Chennai,West India,Rail,1573,2.88,0.02,90.6,1,0,68128.34,13988.56,99.55
+272,ORD00272,Furniture,Ahmedabad,Delhi,North India,Road - Heavy Truck,54,7.19,0.08,31.06,10,1,25275.01,9519.03,89.84
+273,ORD00273,Groceries,Mumbai,Mumbai,North India,Rail,1779,8.26,0.02,293.89,4,0,70932.95,18207.77,98.53
+274,ORD00274,Furniture,Mumbai,Delhi,South India,Rail,1275,3.99,0.02,101.75,3,0,18027.28,3027.9,99.49
+275,ORD00275,Pharmaceuticals,Ahmedabad,Chennai,North India,Air,922,3.84,0.6,2124.29,7,0,64667.6,22930.34,89.38
+276,ORD00276,Apparel,Bangalore,Chennai,East India,Road - Heavy Truck,554,1.83,0.08,81.11,7,0,61009.52,17374.93,99.59
+277,ORD00277,Apparel,Chennai,Chennai,West India,Road - Heavy Truck,1217,2.86,0.08,278.45,11,1,79002.12,15236.13,88.61
+278,ORD00278,Pharmaceuticals,Mumbai,Delhi,East India,Rail,1030,6.64,0.02,136.78,8,1,52014.33,19046.45,89.32
+279,ORD00279,Groceries,Mumbai,Delhi,North India,Rail,2378,1.75,0.02,83.23,3,0,44982.04,10619.95,99.58
+280,ORD00280,Pharmaceuticals,Kolkata,Pune,West India,Road - Heavy Truck,213,2.99,0.08,50.95,7,0,92645.03,10690.87,99.75
+281,ORD00281,Apparel,Mumbai,Chennai,South India,Air,2247,1.28,0.6,1725.7,2,0,56077.26,19862.33,91.37
+282,ORD00282,Electronics,Chennai,Mumbai,West India,Rail,320,4.21,0.02,26.94,4,0,34466.1,9262.91,99.87
+283,ORD00283,Furniture,Mumbai,Delhi,South India,Road - Heavy Truck,275,4.81,0.08,105.82,12,1,34382.56,6102.63,89.47
+284,ORD00284,Apparel,Bangalore,Hyderabad,South India,Road - Heavy Truck,1470,2.06,0.08,242.26,12,1,54685.51,9028.79,88.79
+285,ORD00285,Apparel,Mumbai,Kolkata,North India,Rail,533,7.46,0.02,79.52,7,0,78285.88,30624.9,99.6
+286,ORD00286,Apparel,Bangalore,Kolkata,North India,Air,1525,4.82,0.6,4410.3,3,0,10266.72,1459.85,77.95
+287,ORD00287,Furniture,Delhi,Ahmedabad,East India,Road - Heavy Truck,2134,2.67,0.08,455.82,1,0,5244.01,746.71,97.72
+288,ORD00288,Groceries,Chennai,Hyderabad,South India,Air,783,9.24,0.6,4340.95,9,1,93460.21,13341.86,68.3
+289,ORD00289,Electronics,Delhi,Bangalore,South India,Air,1360,9.2,0.6,7507.2,6,0,30769.51,11588.84,62.46
+290,ORD00290,Apparel,Mumbai,Ahmedabad,North India,Road - Heavy Truck,332,9.56,0.08,253.91,5,0,88314.17,12380.79,98.73
+291,ORD00291,Groceries,Hyderabad,Ahmedabad,South India,Rail,2359,2.41,0.02,113.7,4,0,79528.19,14166.13,99.43
+292,ORD00292,Electronics,Hyderabad,Delhi,West India,Road - Medium Truck,1729,1.93,0.1,333.7,11,1,7271.47,1727.24,88.33
+293,ORD00293,Furniture,Kolkata,Mumbai,North India,Rail,2220,1.49,0.02,66.16,1,0,98396.0,26965.94,99.67
+294,ORD00294,Electronics,Mumbai,Bangalore,West India,Road - Medium Truck,2178,9.02,0.1,1964.56,8,1,44240.4,5809.94,80.18
+295,ORD00295,Apparel,Kolkata,Hyderabad,West India,Road - Heavy Truck,305,6.12,0.08,149.33,4,0,46323.37,5129.6,99.25
+296,ORD00296,Pharmaceuticals,Mumbai,Bangalore,North India,Rail,1163,3.52,0.02,81.88,3,0,27193.07,3179.78,99.59
+297,ORD00297,Groceries,Kolkata,Ahmedabad,East India,Road - Medium Truck,1336,4.77,0.1,637.27,4,0,43618.69,10434.58,96.81
+298,ORD00298,Furniture,Hyderabad,Bangalore,North India,Road - Heavy Truck,1296,1.36,0.08,141.0,1,0,83506.74,15944.49,99.3
+299,ORD00299,Furniture,Delhi,Pune,West India,Road - Medium Truck,1673,9.7,0.1,1622.81,5,0,53778.67,10586.06,91.89
+300,ORD00300,Electronics,Chennai,Bangalore,South India,Road - Medium Truck,467,1.4,0.1,65.38,1,0,81370.19,29135.58,99.67
+301,ORD00301,Electronics,Mumbai,Chennai,West India,Air,394,4.04,0.6,955.06,2,0,60320.76,19444.63,95.22
+302,ORD00302,Furniture,Pune,Pune,West India,Road - Medium Truck,1408,1.37,0.1,192.9,1,0,16640.13,1952.15,99.04
+303,ORD00303,Apparel,Kolkata,Ahmedabad,South India,Road - Heavy Truck,1797,4.14,0.08,595.17,3,0,21416.69,7187.12,97.02
+304,ORD00304,Groceries,Delhi,Mumbai,East India,Road - Heavy Truck,1056,6.33,0.08,534.76,9,1,66491.45,16644.97,87.33
+305,ORD00305,Pharmaceuticals,Delhi,Pune,East India,Air,866,1.8,0.6,935.28,4,0,66051.99,10623.84,95.32
+306,ORD00306,Groceries,Kolkata,Bangalore,North India,Air,2035,5.67,0.6,6923.07,6,0,37683.24,8678.63,65.38
+307,ORD00307,Groceries,Hyderabad,Chennai,South India,Rail,170,6.17,0.02,20.98,1,0,90097.65,14995.72,99.9
+308,ORD00308,Electronics,Chennai,Pune,East India,Road - Heavy Truck,1037,2.85,0.08,236.44,12,1,30320.07,4703.08,88.82
+309,ORD00309,Pharmaceuticals,Delhi,Hyderabad,South India,Road - Medium Truck,2476,2.17,0.1,537.29,6,0,35210.41,6287.47,97.31
+310,ORD00310,Electronics,Delhi,Chennai,South India,Road - Medium Truck,2066,8.45,0.1,1745.77,1,0,56501.84,19624.95,91.27
+311,ORD00311,Apparel,Bangalore,Hyderabad,North India,Road - Heavy Truck,52,5.5,0.08,22.88,3,0,36514.73,7878.4,99.89
+312,ORD00312,Electronics,Hyderabad,Pune,North India,Road - Heavy Truck,630,1.9,0.08,95.76,6,0,78564.82,11474.84,99.52
+313,ORD00313,Groceries,Hyderabad,Bangalore,East India,Rail,608,3.37,0.02,40.98,7,0,97706.76,17615.98,99.8
+314,ORD00314,Furniture,Bangalore,Delhi,West India,Road - Medium Truck,768,6.82,0.1,523.78,5,0,40946.49,7362.24,97.38
+315,ORD00315,Pharmaceuticals,Mumbai,Ahmedabad,South India,Road - Heavy Truck,1353,2.23,0.08,241.38,4,0,92498.63,10150.85,98.79
+316,ORD00316,Electronics,Hyderabad,Ahmedabad,North India,Rail,1024,7.58,0.02,155.24,11,1,37946.96,11541.36,89.22
+317,ORD00317,Electronics,Delhi,Pune,West India,Rail,327,2.49,0.02,16.28,12,1,38295.71,6276.44,89.92
+318,ORD00318,Groceries,Mumbai,Ahmedabad,South India,Air,1745,9.71,0.6,10166.37,9,1,51842.79,14847.06,39.17
+319,ORD00319,Electronics,Hyderabad,Bangalore,West India,Road - Medium Truck,186,4.79,0.1,89.09,2,0,33016.32,10049.67,99.55
+320,ORD00320,Pharmaceuticals,Ahmedabad,Delhi,West India,Road - Medium Truck,2290,7.45,0.1,1706.05,6,0,94474.24,10069.78,91.47
+321,ORD00321,Furniture,Pune,Kolkata,East India,Road - Medium Truck,1828,6.27,0.1,1146.16,4,0,19924.86,7364.68,94.27
+322,ORD00322,Furniture,Delhi,Hyderabad,North India,Rail,253,2.76,0.02,13.97,8,1,42325.71,9950.83,89.93
+323,ORD00323,Apparel,Mumbai,Ahmedabad,North India,Air,2017,1.33,0.6,1609.57,3,0,23969.11,9402.59,91.95
+324,ORD00324,Pharmaceuticals,Pune,Bangalore,East India,Rail,1978,7.96,0.02,314.9,2,0,51464.2,10379.71,98.43
+325,ORD00325,Furniture,Kolkata,Delhi,South India,Air,1875,4.01,0.6,4511.25,5,0,9238.61,2476.67,77.44
+326,ORD00326,Furniture,Delhi,Pune,West India,Road - Heavy Truck,1458,1.31,0.08,152.8,10,1,81777.11,22554.45,89.24
+327,ORD00327,Electronics,Bangalore,Mumbai,West India,Air,1015,5.94,0.6,3617.46,12,1,50244.92,18907.84,71.91
+328,ORD00328,Electronics,Pune,Mumbai,West India,Road - Medium Truck,734,9.52,0.1,698.77,3,0,97355.66,15329.8,96.51
+329,ORD00329,Electronics,Mumbai,Pune,West India,Road - Medium Truck,655,9.97,0.1,653.04,12,1,84240.27,27178.78,86.73
+330,ORD00330,Pharmaceuticals,Pune,Mumbai,West India,Rail,2178,8.64,0.02,376.36,12,1,48524.93,6694.51,88.12
+331,ORD00331,Electronics,Mumbai,Kolkata,East India,Road - Medium Truck,2458,1.91,0.1,469.48,2,0,60354.32,6672.2,97.65
+332,ORD00332,Apparel,Pune,Bangalore,West India,Air,2038,3.01,0.6,3680.63,3,0,59342.21,15315.39,81.6
+333,ORD00333,Apparel,Hyderabad,Delhi,East India,Road - Heavy Truck,1407,4.26,0.08,479.51,8,1,70598.81,27195.56,87.6
+334,ORD00334,Furniture,Kolkata,Ahmedabad,East India,Rail,2063,3.45,0.02,142.35,4,0,86532.3,16834.37,99.29
+335,ORD00335,Groceries,Hyderabad,Delhi,South India,Rail,415,7.42,0.02,61.59,7,0,22853.89,7692.23,99.69
+336,ORD00336,Pharmaceuticals,Delhi,Bangalore,South India,Road - Heavy Truck,2125,3.46,0.08,588.2,9,1,43321.59,7184.67,87.06
+337,ORD00337,Furniture,Kolkata,Hyderabad,West India,Road - Medium Truck,1071,8.45,0.1,904.99,6,0,8141.75,3133.21,95.48
+338,ORD00338,Pharmaceuticals,Ahmedabad,Bangalore,West India,Air,557,6.54,0.6,2185.67,8,1,69711.56,22824.86,79.07
+339,ORD00339,Electronics,Pune,Delhi,South India,Rail,1109,3.77,0.02,83.62,5,0,76151.31,14723.46,99.58
+340,ORD00340,Pharmaceuticals,Delhi,Delhi,West India,Road - Medium Truck,972,8.64,0.1,839.81,7,0,69381.05,22151.63,95.8
+341,ORD00341,Apparel,Pune,Pune,East India,Road - Medium Truck,84,6.65,0.1,55.86,5,0,26258.15,5711.06,99.72
+342,ORD00342,Groceries,Mumbai,Delhi,East India,Air,1961,2.89,0.6,3400.37,10,1,33703.78,8217.27,73.0
+343,ORD00343,Apparel,Kolkata,Kolkata,East India,Rail,492,3.34,0.02,32.87,5,0,50765.15,15184.61,99.84
+344,ORD00344,Groceries,Hyderabad,Bangalore,North India,Road - Medium Truck,1034,1.92,0.1,198.53,10,1,90470.27,14327.87,89.01
+345,ORD00345,Electronics,Chennai,Hyderabad,South India,Air,1112,9.98,0.6,6658.66,12,1,91156.6,25398.08,56.71
+346,ORD00346,Pharmaceuticals,Bangalore,Kolkata,North India,Air,1518,9.11,0.6,8297.39,11,1,53194.91,7786.36,48.51
+347,ORD00347,Apparel,Mumbai,Chennai,East India,Air,1109,1.72,0.6,1144.49,3,0,73892.73,17164.58,94.28
+348,ORD00348,Apparel,Kolkata,Ahmedabad,North India,Road - Medium Truck,1307,7.57,0.1,989.4,6,0,44944.89,6020.23,95.05
+349,ORD00349,Furniture,Mumbai,Pune,East India,Air,2440,1.01,0.6,1478.64,8,1,60129.75,12855.96,82.61
+350,ORD00350,Pharmaceuticals,Ahmedabad,Bangalore,East India,Air,667,1.01,0.6,404.2,7,0,18049.7,6135.29,97.98
+351,ORD00351,Electronics,Delhi,Ahmedabad,East India,Road - Medium Truck,2047,7.9,0.1,1617.13,6,0,36599.8,3806.67,91.91
+352,ORD00352,Furniture,Pune,Pune,West India,Road - Medium Truck,740,7.73,0.1,572.02,2,0,59746.5,21058.82,97.14
+353,ORD00353,Apparel,Delhi,Hyderabad,South India,Air,1620,9.67,0.6,9399.24,12,1,5443.57,1305.72,43.0
+354,ORD00354,Furniture,Mumbai,Pune,East India,Road - Heavy Truck,1069,6.93,0.08,592.65,5,0,26495.24,3627.32,97.04
+355,ORD00355,Pharmaceuticals,Hyderabad,Pune,South India,Road - Medium Truck,237,1.12,0.1,26.54,12,1,33329.21,10423.77,89.87
+356,ORD00356,Electronics,Chennai,Chennai,South India,Rail,2057,9.96,0.02,409.75,7,0,39128.83,13439.66,97.95
+357,ORD00357,Electronics,Pune,Kolkata,North India,Road - Medium Truck,2465,7.47,0.1,1841.36,12,1,52940.19,19220.01,80.79
+358,ORD00358,Groceries,Mumbai,Kolkata,West India,Road - Heavy Truck,130,6.79,0.08,70.62,8,1,9582.33,3500.07,89.65
+359,ORD00359,Pharmaceuticals,Kolkata,Bangalore,West India,Road - Medium Truck,88,2.45,0.1,21.56,11,1,33606.06,6771.64,89.89
+360,ORD00360,Furniture,Chennai,Kolkata,South India,Road - Heavy Truck,532,5.36,0.08,228.12,8,1,31857.14,5242.79,88.86
+361,ORD00361,Groceries,Hyderabad,Chennai,North India,Rail,1259,7.18,0.02,180.79,4,0,20235.49,4766.64,99.1
+362,ORD00362,Electronics,Mumbai,Mumbai,East India,Road - Heavy Truck,502,6.88,0.08,276.3,3,0,84347.06,16809.81,98.62
+363,ORD00363,Electronics,Kolkata,Hyderabad,East India,Road - Medium Truck,1262,4.84,0.1,610.81,3,0,30091.88,11584.65,96.95
+364,ORD00364,Furniture,Bangalore,Hyderabad,East India,Air,439,7.52,0.6,1980.77,1,0,85868.36,11412.97,90.1
+365,ORD00365,Furniture,Mumbai,Pune,West India,Air,1148,9.57,0.6,6591.82,6,0,88455.18,32915.46,67.04
+366,ORD00366,Furniture,Mumbai,Bangalore,North India,Air,1629,3.08,0.6,3010.39,7,0,70540.73,18095.57,84.95
+367,ORD00367,Furniture,Pune,Hyderabad,North India,Road - Medium Truck,2469,1.49,0.1,367.88,8,1,50854.11,11661.71,88.16
+368,ORD00368,Electronics,Kolkata,Hyderabad,North India,Road - Medium Truck,2049,5.09,0.1,1042.94,1,0,15729.06,4350.89,94.79
+369,ORD00369,Electronics,Pune,Chennai,West India,Road - Medium Truck,1435,9.79,0.1,1404.87,10,1,54314.47,10511.34,82.98
+370,ORD00370,Electronics,Delhi,Bangalore,West India,Rail,1626,6.81,0.02,221.46,10,1,19122.17,2907.88,88.89
+371,ORD00371,Apparel,Delhi,Chennai,West India,Air,356,8.76,0.6,1871.14,6,0,76385.85,23206.77,90.64
+372,ORD00372,Electronics,Ahmedabad,Ahmedabad,East India,Air,372,8.26,0.6,1843.63,8,1,48613.99,7759.84,80.78
+373,ORD00373,Pharmaceuticals,Delhi,Mumbai,East India,Road - Heavy Truck,122,9.82,0.08,95.84,9,1,14751.12,4075.71,89.52
+374,ORD00374,Furniture,Ahmedabad,Hyderabad,West India,Road - Medium Truck,1918,6.72,0.1,1288.9,1,0,95283.74,27727.31,93.56
+375,ORD00375,Apparel,Hyderabad,Kolkata,East India,Rail,517,7.3,0.02,75.48,1,0,14256.52,2884.48,99.62
+376,ORD00376,Groceries,Mumbai,Kolkata,South India,Road - Heavy Truck,722,0.93,0.08,53.72,12,1,51780.1,7945.57,89.73
+377,ORD00377,Apparel,Mumbai,Pune,North India,Road - Medium Truck,1659,1.65,0.1,273.74,4,0,25481.0,3889.26,98.63
+378,ORD00378,Furniture,Ahmedabad,Delhi,North India,Road - Heavy Truck,1895,7.84,0.08,1188.54,9,1,48451.85,10814.7,84.06
+379,ORD00379,Pharmaceuticals,Bangalore,Bangalore,North India,Air,2028,8.47,0.6,10306.3,3,0,92815.23,15377.21,48.47
+380,ORD00380,Furniture,Kolkata,Pune,East India,Air,1368,6.75,0.6,5540.4,10,1,52890.46,15052.69,62.3
+381,ORD00381,Pharmaceuticals,Kolkata,Hyderabad,South India,Rail,596,4.8,0.02,57.22,12,1,18127.1,3974.23,89.71
+382,ORD00382,Furniture,Hyderabad,Mumbai,East India,Road - Medium Truck,1240,2.49,0.1,308.76,3,0,70228.07,8683.17,98.46
+383,ORD00383,Apparel,Pune,Delhi,North India,Air,1759,6.04,0.6,6374.62,9,1,69053.13,9103.98,58.13
+384,ORD00384,Apparel,Kolkata,Bangalore,North India,Road - Heavy Truck,267,4.12,0.08,88.0,3,0,68674.15,23351.22,99.56
+385,ORD00385,Pharmaceuticals,Chennai,Pune,South India,Rail,2266,2.44,0.02,110.58,2,0,8069.11,1257.1,99.45
+386,ORD00386,Apparel,Delhi,Delhi,East India,Rail,242,7.08,0.02,34.27,11,1,93016.06,26391.78,89.83
+387,ORD00387,Apparel,Chennai,Chennai,East India,Road - Medium Truck,1864,6.4,0.1,1192.96,12,1,83848.43,10611.36,84.04
+388,ORD00388,Electronics,Pune,Delhi,West India,Air,355,2.19,0.6,466.47,9,1,22762.78,7918.29,87.67
+389,ORD00389,Apparel,Ahmedabad,Bangalore,North India,Rail,582,5.79,0.02,67.4,1,0,20288.24,2966.05,99.66
+390,ORD00390,Apparel,Ahmedabad,Hyderabad,North India,Road - Medium Truck,2494,9.32,0.1,2324.41,10,1,9831.27,1182.56,78.38
+391,ORD00391,Groceries,Pune,Mumbai,East India,Rail,803,5.49,0.02,88.17,3,0,54457.6,8937.72,99.56
+392,ORD00392,Pharmaceuticals,Ahmedabad,Delhi,North India,Road - Medium Truck,1409,8.89,0.1,1252.6,10,1,36451.32,11370.18,83.74
+393,ORD00393,Groceries,Mumbai,Pune,East India,Rail,1048,4.73,0.02,99.14,6,0,96095.2,18761.11,99.5
+394,ORD00394,Groceries,Ahmedabad,Delhi,East India,Rail,2167,0.73,0.02,31.64,9,1,83100.36,23892.4,89.84
+395,ORD00395,Pharmaceuticals,Delhi,Mumbai,South India,Road - Medium Truck,387,3.54,0.1,137.0,9,1,95080.12,33257.27,89.31
+396,ORD00396,Groceries,Mumbai,Bangalore,North India,Road - Medium Truck,1787,8.72,0.1,1558.26,12,1,84388.18,28550.73,82.21
+397,ORD00397,Pharmaceuticals,Mumbai,Chennai,East India,Air,205,7.31,0.6,899.13,5,0,13314.49,5109.03,95.5
+398,ORD00398,Electronics,Delhi,Mumbai,North India,Air,1706,4.19,0.6,4288.88,11,1,46137.38,18221.16,68.56
+399,ORD00399,Pharmaceuticals,Mumbai,Kolkata,West India,Road - Heavy Truck,2109,3.9,0.08,658.01,5,0,15082.88,2472.57,96.71
+400,ORD00400,Groceries,Kolkata,Bangalore,East India,Air,176,4.25,0.6,448.8,3,0,50028.83,12004.9,97.76
+401,ORD00401,Electronics,Delhi,Pune,North India,Rail,95,9.6,0.02,18.24,2,0,57584.8,13444.85,99.91
+402,ORD00402,Furniture,Bangalore,Bangalore,South India,Rail,1458,2.5,0.02,72.9,9,1,25115.01,3222.55,89.64
+403,ORD00403,Pharmaceuticals,Ahmedabad,Mumbai,East India,Rail,792,2.35,0.02,37.22,1,0,68742.9,15797.96,99.81
+404,ORD00404,Apparel,Bangalore,Chennai,North India,Road - Heavy Truck,858,2.88,0.08,197.68,6,0,73930.98,18766.85,99.01
+405,ORD00405,Apparel,Bangalore,Hyderabad,East India,Rail,842,6.39,0.02,107.61,10,1,35189.66,9318.44,89.46
+406,ORD00406,Groceries,Kolkata,Hyderabad,South India,Air,1332,2.1,0.6,1678.32,12,1,28386.64,9468.14,81.61
+407,ORD00407,Pharmaceuticals,Mumbai,Bangalore,North India,Rail,1945,8.84,0.02,343.88,8,1,47309.01,7927.57,88.28
+408,ORD00408,Electronics,Mumbai,Delhi,North India,Rail,623,8.66,0.02,107.9,12,1,89673.22,30584.88,89.46
+409,ORD00409,Pharmaceuticals,Ahmedabad,Bangalore,East India,Air,921,7.81,0.6,4315.81,9,1,91098.84,21364.66,68.42
+410,ORD00410,Pharmaceuticals,Mumbai,Pune,East India,Air,2465,2.62,0.6,3874.98,8,1,74656.55,23345.12,70.63
+411,ORD00411,Furniture,Bangalore,Ahmedabad,East India,Road - Heavy Truck,729,6.8,0.08,396.58,3,0,76934.58,27534.02,98.02
+412,ORD00412,Electronics,Chennai,Hyderabad,West India,Road - Heavy Truck,2047,2.58,0.08,422.5,4,0,27016.24,8663.92,97.89
+413,ORD00413,Pharmaceuticals,Kolkata,Kolkata,South India,Air,240,9.22,0.6,1327.68,2,0,8790.95,1806.04,93.36
+414,ORD00414,Pharmaceuticals,Kolkata,Pune,South India,Air,1546,6.71,0.6,6224.2,2,0,60829.49,7940.2,68.88
+415,ORD00415,Electronics,Bangalore,Ahmedabad,South India,Air,1463,3.85,0.6,3379.53,10,1,51251.85,13088.03,73.1
+416,ORD00416,Pharmaceuticals,Mumbai,Chennai,West India,Road - Medium Truck,1200,1.23,0.1,147.6,6,0,25094.12,8630.58,99.26
+417,ORD00417,Furniture,Pune,Delhi,South India,Rail,2022,7.34,0.02,296.83,10,1,69146.8,17721.89,88.52
+418,ORD00418,Pharmaceuticals,Bangalore,Delhi,South India,Road - Heavy Truck,2476,1.71,0.08,338.72,1,0,20307.27,4287.63,98.31
+419,ORD00419,Electronics,Kolkata,Mumbai,South India,Rail,2166,9.26,0.02,401.14,10,1,96032.64,21145.69,87.99
+420,ORD00420,Pharmaceuticals,Bangalore,Bangalore,East India,Air,1980,6.26,0.6,7436.88,7,0,87393.73,30485.55,62.82
+421,ORD00421,Furniture,Pune,Pune,South India,Road - Medium Truck,1453,7.38,0.1,1072.31,2,0,92623.43,20473.48,94.64
+422,ORD00422,Furniture,Mumbai,Bangalore,West India,Road - Heavy Truck,2191,0.66,0.08,115.68,7,0,86661.21,21551.96,99.42
+423,ORD00423,Furniture,Delhi,Pune,West India,Road - Heavy Truck,2226,8.84,0.08,1574.23,8,1,52816.27,19264.47,82.13
+424,ORD00424,Groceries,Hyderabad,Mumbai,West India,Rail,2220,8.81,0.02,391.16,8,1,45750.85,5420.26,88.04
+425,ORD00425,Pharmaceuticals,Pune,Kolkata,South India,Road - Medium Truck,1002,2.92,0.1,292.58,10,1,91458.11,34283.5,88.54
+426,ORD00426,Groceries,Chennai,Hyderabad,West India,Road - Heavy Truck,79,7.24,0.08,45.76,1,0,59908.78,21845.82,99.77
+427,ORD00427,Groceries,Hyderabad,Kolkata,West India,Rail,1795,1.51,0.02,54.21,9,1,66899.71,21669.5,89.73
+428,ORD00428,Groceries,Kolkata,Kolkata,East India,Road - Medium Truck,2333,4.43,0.1,1033.52,9,1,50834.44,14687.91,84.83
+429,ORD00429,Furniture,Mumbai,Chennai,West India,Air,537,7.49,0.6,2413.28,12,1,76042.35,20228.9,77.93
+430,ORD00430,Electronics,Bangalore,Ahmedabad,West India,Rail,263,8.11,0.02,42.66,1,0,20270.11,2242.46,99.79
+431,ORD00431,Groceries,Pune,Kolkata,North India,Road - Heavy Truck,958,1.11,0.08,85.07,12,1,40229.34,8741.49,89.57
+432,ORD00432,Apparel,Chennai,Delhi,South India,Road - Medium Truck,1848,6.58,0.1,1215.98,9,1,6017.49,871.51,83.92
+433,ORD00433,Electronics,Kolkata,Pune,East India,Road - Medium Truck,1523,6.9,0.1,1050.87,3,0,27729.38,11089.36,94.75
+434,ORD00434,Electronics,Kolkata,Hyderabad,East India,Air,870,4.35,0.6,2270.7,2,0,54185.56,9695.01,88.65
+435,ORD00435,Apparel,Bangalore,Pune,North India,Rail,846,2.65,0.02,44.84,1,0,48202.11,13439.38,99.78
+436,ORD00436,Pharmaceuticals,Kolkata,Ahmedabad,West India,Road - Heavy Truck,1442,5.28,0.08,609.1,5,0,94966.47,15110.81,96.95
+437,ORD00437,Pharmaceuticals,Delhi,Ahmedabad,North India,Air,1441,7.81,0.6,6752.53,8,1,96317.68,25268.51,56.24
+438,ORD00438,Groceries,Hyderabad,Delhi,East India,Rail,952,1.14,0.02,21.71,6,0,69306.73,22941.98,99.89
+439,ORD00439,Pharmaceuticals,Bangalore,Ahmedabad,East India,Road - Medium Truck,1684,3.23,0.1,543.93,2,0,69001.3,10603.95,97.28
+440,ORD00440,Furniture,Ahmedabad,Chennai,South India,Rail,2399,2.58,0.02,123.79,11,1,30562.2,3541.08,89.38
+441,ORD00441,Apparel,Bangalore,Mumbai,North India,Road - Medium Truck,896,8.79,0.1,787.58,10,1,26774.72,4003.3,86.06
+442,ORD00442,Electronics,Ahmedabad,Hyderabad,East India,Road - Heavy Truck,2067,6.92,0.08,1144.29,9,1,63313.56,10809.32,84.28
+443,ORD00443,Apparel,Pune,Chennai,South India,Air,2403,9.03,0.6,13019.45,9,1,87533.04,22124.71,24.9
+444,ORD00444,Apparel,Pune,Bangalore,West India,Road - Heavy Truck,1783,5.49,0.08,783.09,9,1,50440.41,11993.2,86.08
+445,ORD00445,Furniture,Pune,Mumbai,East India,Road - Heavy Truck,1934,7.13,0.08,1103.15,11,1,34986.87,13906.39,84.48
+446,ORD00446,Groceries,Hyderabad,Hyderabad,South India,Rail,1113,6.32,0.02,140.68,5,0,22779.48,7315.52,99.3
+447,ORD00447,Apparel,Ahmedabad,Bangalore,South India,Air,1766,4.53,0.6,4799.99,7,0,71567.7,20633.48,76.0
+448,ORD00448,Furniture,Bangalore,Bangalore,West India,Road - Medium Truck,1155,8.23,0.1,950.57,7,0,81388.32,18995.87,95.25
+449,ORD00449,Pharmaceuticals,Hyderabad,Ahmedabad,East India,Road - Heavy Truck,2096,2.18,0.08,365.54,11,1,17774.81,2346.61,88.17
+450,ORD00450,Electronics,Chennai,Kolkata,West India,Rail,2375,5.84,0.02,277.4,3,0,9532.38,3529.91,98.61
+451,ORD00451,Apparel,Hyderabad,Delhi,West India,Road - Heavy Truck,1420,4.77,0.08,541.87,9,1,29678.07,8663.27,87.29
+452,ORD00452,Furniture,Kolkata,Hyderabad,East India,Road - Heavy Truck,864,3.84,0.08,265.42,9,1,59801.11,12261.64,88.67
+453,ORD00453,Groceries,Bangalore,Bangalore,East India,Air,1880,7.86,0.6,8866.08,5,0,89515.08,25572.55,55.67
+454,ORD00454,Furniture,Hyderabad,Chennai,East India,Air,2391,6.5,0.6,9324.9,2,0,43453.41,5556.74,53.38
+455,ORD00455,Apparel,Ahmedabad,Pune,South India,Rail,1145,6.7,0.02,153.43,8,1,62511.57,17588.47,89.23
+456,ORD00456,Electronics,Chennai,Bangalore,West India,Road - Medium Truck,562,8.62,0.1,484.44,12,1,74138.38,14930.97,87.58
+457,ORD00457,Pharmaceuticals,Mumbai,Mumbai,East India,Road - Heavy Truck,1988,1.41,0.08,224.25,7,0,57101.21,22388.84,98.88
+458,ORD00458,Groceries,Bangalore,Bangalore,South India,Road - Medium Truck,1646,1.3,0.1,213.98,5,0,34390.21,11203.68,98.93
+459,ORD00459,Groceries,Kolkata,Ahmedabad,South India,Road - Heavy Truck,1511,0.83,0.08,100.33,8,1,86735.04,26232.11,89.5
+460,ORD00460,Groceries,Kolkata,Hyderabad,West India,Road - Medium Truck,1920,6.11,0.1,1173.12,10,1,64949.51,13590.34,84.13
+461,ORD00461,Apparel,Delhi,Delhi,South India,Road - Medium Truck,1859,8.14,0.1,1513.23,3,0,34247.48,9463.91,92.43
+462,ORD00462,Apparel,Delhi,Pune,East India,Rail,2241,3.22,0.02,144.32,8,1,5790.13,714.35,89.28
+463,ORD00463,Groceries,Pune,Chennai,South India,Road - Medium Truck,2295,8.07,0.1,1852.07,9,1,40496.17,11196.35,80.74
+464,ORD00464,Pharmaceuticals,Kolkata,Kolkata,East India,Air,953,8.37,0.6,4785.97,4,0,29983.13,8195.23,76.07
+465,ORD00465,Groceries,Ahmedabad,Kolkata,West India,Air,330,2.29,0.6,453.42,11,1,22328.68,6991.59,87.73
+466,ORD00466,Electronics,Kolkata,Kolkata,South India,Road - Medium Truck,673,3.55,0.1,238.92,3,0,9715.05,2326.84,98.81
+467,ORD00467,Apparel,Pune,Kolkata,West India,Air,1003,7.41,0.6,4459.34,4,0,13568.71,5367.54,77.7
+468,ORD00468,Electronics,Kolkata,Pune,North India,Rail,179,4.91,0.02,17.58,3,0,36373.62,5344.6,99.91
+469,ORD00469,Furniture,Pune,Ahmedabad,South India,Air,1074,2.23,0.6,1437.01,2,0,82638.82,12521.8,92.81
+470,ORD00470,Groceries,Kolkata,Hyderabad,South India,Road - Heavy Truck,434,2.39,0.08,82.98,8,1,54508.22,5743.27,89.59
+471,ORD00471,Apparel,Chennai,Hyderabad,North India,Road - Heavy Truck,2301,7.57,0.08,1393.49,11,1,54487.99,17654.45,83.03
+472,ORD00472,Apparel,Mumbai,Pune,South India,Road - Medium Truck,1016,9.75,0.1,990.6,3,0,65126.35,19710.23,95.05
+473,ORD00473,Furniture,Hyderabad,Mumbai,South India,Road - Heavy Truck,2430,9.7,0.08,1885.68,10,1,79430.15,20446.81,80.57
+474,ORD00474,Electronics,Delhi,Hyderabad,South India,Road - Medium Truck,1436,5.25,0.1,753.9,11,1,93430.63,9427.9,86.23
+475,ORD00475,Apparel,Ahmedabad,Chennai,North India,Road - Heavy Truck,1003,1.7,0.08,136.41,11,1,35090.26,8158.31,89.32
+476,ORD00476,Groceries,Kolkata,Ahmedabad,South India,Air,601,3.9,0.6,1406.34,12,1,28816.14,11185.08,82.97
+477,ORD00477,Pharmaceuticals,Bangalore,Mumbai,South India,Road - Medium Truck,1375,5.66,0.1,778.25,10,1,74578.23,23671.33,86.11
+478,ORD00478,Pharmaceuticals,Pune,Bangalore,North India,Air,1128,3.31,0.6,2240.21,11,1,56452.57,14890.85,78.8
+479,ORD00479,Groceries,Chennai,Ahmedabad,South India,Rail,1028,7.87,0.02,161.81,9,1,35465.94,13512.43,89.19
+480,ORD00480,Electronics,Bangalore,Bangalore,North India,Rail,1369,3.56,0.02,97.47,2,0,15494.09,3765.68,99.51
+481,ORD00481,Groceries,Kolkata,Delhi,East India,Road - Medium Truck,834,1.52,0.1,126.77,7,0,14381.59,3289.02,99.37
+482,ORD00482,Groceries,Mumbai,Ahmedabad,North India,Road - Medium Truck,340,6.26,0.1,212.84,11,1,6243.18,772.22,88.94
+483,ORD00483,Pharmaceuticals,Kolkata,Delhi,North India,Rail,1753,5.8,0.02,203.35,1,0,83092.52,13438.15,98.98
+484,ORD00484,Furniture,Pune,Chennai,South India,Rail,934,1.24,0.02,23.16,12,1,96255.74,35697.81,89.88
+485,ORD00485,Electronics,Hyderabad,Ahmedabad,West India,Road - Medium Truck,782,5.92,0.1,462.94,12,1,58050.23,13500.02,87.69
+486,ORD00486,Furniture,Ahmedabad,Hyderabad,East India,Road - Heavy Truck,788,2.08,0.08,131.12,11,1,57246.72,14231.09,89.34
+487,ORD00487,Apparel,Chennai,Chennai,West India,Rail,1738,8.53,0.02,296.5,12,1,77597.51,21015.24,88.52
+488,ORD00488,Electronics,Kolkata,Delhi,South India,Rail,1903,3.92,0.02,149.2,12,1,47512.48,13344.96,89.25
+489,ORD00489,Apparel,Bangalore,Mumbai,North India,Rail,958,0.56,0.02,10.73,12,1,25408.17,7762.92,89.95
+490,ORD00490,Furniture,Kolkata,Kolkata,North India,Air,616,3.88,0.6,1434.05,4,0,30173.88,4016.52,92.83
+491,ORD00491,Furniture,Ahmedabad,Mumbai,East India,Air,940,5.91,0.6,3333.24,8,1,74755.27,13674.67,73.33
+492,ORD00492,Apparel,Pune,Pune,North India,Road - Heavy Truck,2410,7.44,0.08,1434.43,6,0,41246.88,6845.47,92.83
+493,ORD00493,Apparel,Delhi,Hyderabad,South India,Road - Medium Truck,96,7.6,0.1,72.96,1,0,65219.27,13718.35,99.64
+494,ORD00494,Groceries,Mumbai,Chennai,West India,Rail,954,5.27,0.02,100.55,7,0,19553.76,3869.87,99.5
+495,ORD00495,Electronics,Pune,Kolkata,North India,Rail,656,7.97,0.02,104.57,10,1,17557.96,6588.39,89.48
+496,ORD00496,Groceries,Pune,Chennai,South India,Air,584,5.27,0.6,1846.61,4,0,77393.13,19791.22,90.77
+497,ORD00497,Electronics,Pune,Pune,East India,Road - Medium Truck,1811,1.18,0.1,213.7,2,0,35724.11,4385.44,98.93
+498,ORD00498,Furniture,Hyderabad,Ahmedabad,South India,Rail,1461,2.31,0.02,67.5,5,0,61418.33,24121.31,99.66
+499,ORD00499,Electronics,Mumbai,Delhi,South India,Air,1006,0.93,0.6,561.35,12,1,23970.1,6899.88,87.19
+500,ORD00500,Apparel,Ahmedabad,Ahmedabad,North India,Road - Medium Truck,1228,8.75,0.1,1074.5,2,0,6304.66,1209.62,94.63
+501,ORD00501,Pharmaceuticals,Ahmedabad,Bangalore,North India,Rail,2253,2.49,0.02,112.2,5,0,25128.15,5932.07,99.44
+502,ORD00502,Furniture,Kolkata,Delhi,West India,Air,2207,6.04,0.6,7998.17,5,0,9130.79,3185.77,60.01
+503,ORD00503,Electronics,Delhi,Kolkata,West India,Road - Heavy Truck,1161,1.13,0.08,104.95,6,0,67983.26,8575.37,99.48
+504,ORD00504,Groceries,Mumbai,Bangalore,South India,Road - Medium Truck,2132,9.81,0.1,2091.49,6,0,97778.13,36189.53,89.54
+505,ORD00505,Apparel,Ahmedabad,Pune,South India,Air,138,5.83,0.6,482.72,5,0,8776.48,1082.31,97.59
+506,ORD00506,Apparel,Delhi,Kolkata,West India,Road - Heavy Truck,1491,3.79,0.08,452.07,9,1,38760.92,11988.84,87.74
+507,ORD00507,Furniture,Mumbai,Pune,South India,Road - Heavy Truck,1197,9.47,0.08,906.85,7,0,26430.36,7862.08,95.47
+508,ORD00508,Apparel,Ahmedabad,Bangalore,South India,Air,675,2.78,0.6,1125.9,10,1,45514.17,13940.32,84.37
+509,ORD00509,Pharmaceuticals,Bangalore,Pune,South India,Road - Medium Truck,878,6.02,0.1,528.56,12,1,86945.83,26718.5,87.36
+510,ORD00510,Apparel,Bangalore,Delhi,East India,Road - Medium Truck,2332,3.52,0.1,820.86,3,0,55631.35,10245.51,95.9
+511,ORD00511,Apparel,Bangalore,Chennai,North India,Air,1292,9.63,0.6,7465.18,11,1,47085.43,5644.1,52.67
+512,ORD00512,Furniture,Chennai,Delhi,East India,Road - Medium Truck,1143,2.26,0.1,258.32,10,1,62532.43,13525.23,88.71
+513,ORD00513,Apparel,Bangalore,Pune,West India,Road - Heavy Truck,2002,7.04,0.08,1127.53,8,1,17738.23,2592.59,84.36
+514,ORD00514,Apparel,Pune,Chennai,South India,Air,841,1.81,0.6,913.33,1,0,26495.94,7350.59,95.43
+515,ORD00515,Groceries,Chennai,Pune,West India,Road - Medium Truck,1849,1.13,0.1,208.94,6,0,87377.26,22107.94,98.96
+516,ORD00516,Pharmaceuticals,Delhi,Mumbai,West India,Road - Heavy Truck,1608,6.28,0.08,807.86,12,1,73419.09,20686.18,85.96
+517,ORD00517,Groceries,Delhi,Pune,North India,Air,223,8.36,0.6,1118.57,9,1,88389.09,28839.9,84.41
+518,ORD00518,Groceries,Bangalore,Pune,East India,Road - Medium Truck,1680,3.27,0.1,549.36,5,0,89017.77,14945.81,97.25
+519,ORD00519,Pharmaceuticals,Mumbai,Bangalore,South India,Road - Heavy Truck,632,7.05,0.08,356.45,2,0,49040.0,10110.55,98.22
+520,ORD00520,Furniture,Ahmedabad,Mumbai,East India,Air,1896,4.43,0.6,5039.57,12,1,7366.65,1944.03,64.8
+521,ORD00521,Groceries,Hyderabad,Mumbai,West India,Rail,721,7.07,0.02,101.95,2,0,73245.6,26583.52,99.49
+522,ORD00522,Pharmaceuticals,Bangalore,Bangalore,South India,Road - Medium Truck,1608,4.1,0.1,659.28,6,0,9171.08,3198.27,96.7
+523,ORD00523,Apparel,Bangalore,Mumbai,South India,Road - Medium Truck,260,7.81,0.1,203.06,8,1,44860.26,13778.58,88.98
+524,ORD00524,Pharmaceuticals,Delhi,Ahmedabad,South India,Road - Medium Truck,1086,0.53,0.1,57.56,8,1,6159.74,1544.32,89.71
+525,ORD00525,Pharmaceuticals,Delhi,Chennai,East India,Road - Medium Truck,1998,6.09,0.1,1216.78,10,1,48105.16,12865.12,83.92
+526,ORD00526,Electronics,Kolkata,Hyderabad,North India,Road - Medium Truck,657,0.96,0.1,63.07,3,0,10231.07,3021.17,99.68
+527,ORD00527,Pharmaceuticals,Bangalore,Ahmedabad,East India,Road - Heavy Truck,780,1.53,0.08,95.47,11,1,20326.85,6396.57,89.52
+528,ORD00528,Groceries,Mumbai,Kolkata,West India,Road - Heavy Truck,1275,1.38,0.08,140.76,2,0,35668.08,4663.28,99.3
+529,ORD00529,Furniture,Delhi,Mumbai,North India,Road - Medium Truck,1174,1.66,0.1,194.88,4,0,36274.81,10007.23,99.03
+530,ORD00530,Pharmaceuticals,Hyderabad,Bangalore,West India,Air,1226,7.38,0.6,5428.73,5,0,45570.09,6637.77,72.86
+531,ORD00531,Furniture,Delhi,Mumbai,North India,Air,786,5.18,0.6,2442.89,5,0,88948.05,29369.18,87.79
+532,ORD00532,Groceries,Pune,Delhi,East India,Air,533,6.44,0.6,2059.51,10,1,75059.5,25355.16,79.7
+533,ORD00533,Apparel,Mumbai,Kolkata,East India,Rail,919,5.82,0.02,106.97,5,0,6073.24,2062.74,99.47
+534,ORD00534,Pharmaceuticals,Delhi,Bangalore,South India,Rail,516,7.79,0.02,80.39,12,1,70154.4,20877.35,89.6
+535,ORD00535,Furniture,Ahmedabad,Bangalore,West India,Rail,2012,8.42,0.02,338.82,11,1,92035.49,14801.49,88.31
+536,ORD00536,Apparel,Hyderabad,Delhi,South India,Rail,1745,4.89,0.02,170.66,9,1,93140.05,35690.64,89.15
+537,ORD00537,Apparel,Pune,Bangalore,West India,Rail,1498,8.1,0.02,242.68,1,0,11290.24,4010.39,98.79
+538,ORD00538,Apparel,Pune,Mumbai,West India,Road - Medium Truck,1312,6.15,0.1,806.88,1,0,72000.29,22006.9,95.97
+539,ORD00539,Apparel,Delhi,Chennai,North India,Road - Medium Truck,1289,4.03,0.1,519.47,2,0,25533.29,7897.56,97.4
+540,ORD00540,Groceries,Kolkata,Hyderabad,South India,Air,2026,5.31,0.6,6454.84,6,0,90970.8,32183.35,67.73
+541,ORD00541,Electronics,Ahmedabad,Pune,North India,Road - Heavy Truck,2164,8.31,0.08,1438.63,12,1,69288.14,24956.54,82.81
+542,ORD00542,Apparel,Ahmedabad,Delhi,North India,Road - Heavy Truck,230,3.45,0.08,63.48,2,0,70269.97,15579.82,99.68
+543,ORD00543,Furniture,Kolkata,Kolkata,East India,Rail,1328,0.71,0.02,18.86,4,0,65690.83,22140.85,99.91
+544,ORD00544,Pharmaceuticals,Mumbai,Chennai,East India,Air,1166,6.88,0.6,4813.25,1,0,19185.47,6099.23,75.93
+545,ORD00545,Pharmaceuticals,Hyderabad,Ahmedabad,North India,Rail,1210,3.07,0.02,74.29,5,0,59537.88,20755.95,99.63
+546,ORD00546,Groceries,Bangalore,Ahmedabad,East India,Road - Medium Truck,256,0.78,0.1,19.97,7,0,15063.06,5782.11,99.9
+547,ORD00547,Electronics,Ahmedabad,Bangalore,North India,Rail,861,3.66,0.02,63.03,9,1,72725.38,14453.36,89.68
+548,ORD00548,Groceries,Chennai,Chennai,South India,Air,1321,1.42,0.6,1125.49,8,1,70025.41,13090.22,84.37
+549,ORD00549,Apparel,Ahmedabad,Ahmedabad,North India,Rail,1655,9.17,0.02,303.53,6,0,22418.54,2798.3,98.48
+550,ORD00550,Apparel,Bangalore,Mumbai,West India,Road - Heavy Truck,1489,5.02,0.08,597.98,5,0,50471.95,7382.54,97.01
+551,ORD00551,Pharmaceuticals,Pune,Chennai,South India,Road - Heavy Truck,340,3.6,0.08,97.92,7,0,80280.94,19281.58,99.51
+552,ORD00552,Pharmaceuticals,Pune,Pune,East India,Road - Medium Truck,1622,9.75,0.1,1581.45,12,1,11275.69,3805.87,82.09
+553,ORD00553,Electronics,Ahmedabad,Hyderabad,North India,Road - Medium Truck,369,2.14,0.1,78.97,8,1,75239.87,14026.77,89.61
+554,ORD00554,Groceries,Hyderabad,Ahmedabad,North India,Air,1712,2.17,0.6,2229.02,10,1,11612.73,4266.25,78.85
+555,ORD00555,Electronics,Bangalore,Bangalore,West India,Road - Heavy Truck,619,2.57,0.08,127.27,11,1,89289.85,11520.46,89.36
+556,ORD00556,Apparel,Kolkata,Pune,East India,Rail,2417,4.2,0.02,203.03,6,0,47480.18,16062.62,98.98
+557,ORD00557,Electronics,Hyderabad,Delhi,North India,Road - Heavy Truck,2140,6.04,0.08,1034.05,5,0,43398.75,15698.77,94.83
+558,ORD00558,Pharmaceuticals,Pune,Hyderabad,West India,Rail,1205,1.54,0.02,37.11,12,1,87239.57,28739.13,89.81
+559,ORD00559,Furniture,Pune,Hyderabad,West India,Air,2282,4.12,0.6,5641.1,3,0,25065.53,8722.23,71.79
+560,ORD00560,Furniture,Ahmedabad,Pune,South India,Road - Medium Truck,564,3.24,0.1,182.74,1,0,17756.36,6720.36,99.09
+561,ORD00561,Pharmaceuticals,Pune,Bangalore,West India,Road - Heavy Truck,1753,1.8,0.08,252.43,12,1,86714.51,11439.83,88.74
+562,ORD00562,Pharmaceuticals,Delhi,Ahmedabad,South India,Air,1893,5.74,0.6,6519.49,7,0,41547.9,13805.44,67.4
+563,ORD00563,Pharmaceuticals,Ahmedabad,Hyderabad,North India,Rail,2287,4.4,0.02,201.26,1,0,59753.47,23301.55,98.99
+564,ORD00564,Groceries,Mumbai,Mumbai,South India,Air,377,9.64,0.6,2180.57,5,0,18498.31,3341.02,89.1
+565,ORD00565,Apparel,Delhi,Hyderabad,North India,Air,369,6.49,0.6,1436.89,10,1,69987.03,16673.77,82.82
+566,ORD00566,Apparel,Kolkata,Bangalore,North India,Air,1971,4.81,0.6,5688.31,6,0,59526.7,17890.5,71.56
+567,ORD00567,Furniture,Delhi,Kolkata,North India,Rail,2358,7.41,0.02,349.46,10,1,29742.1,6281.83,88.25
+568,ORD00568,Apparel,Bangalore,Kolkata,East India,Rail,569,5.11,0.02,58.15,5,0,53031.63,7666.59,99.71
+569,ORD00569,Furniture,Ahmedabad,Hyderabad,South India,Rail,506,0.63,0.02,6.38,12,1,62363.05,7917.65,89.97
+570,ORD00570,Apparel,Mumbai,Bangalore,South India,Rail,1017,7.93,0.02,161.3,1,0,51067.26,8180.38,99.19
+571,ORD00571,Furniture,Chennai,Hyderabad,North India,Air,1741,7.65,0.6,7991.19,8,1,78184.94,25692.8,50.04
+572,ORD00572,Apparel,Ahmedabad,Chennai,West India,Rail,525,7.68,0.02,80.64,8,1,9989.7,2605.27,89.6
+573,ORD00573,Groceries,Pune,Hyderabad,North India,Air,644,5.01,0.6,1935.86,5,0,55392.0,14932.56,90.32
+574,ORD00574,Apparel,Hyderabad,Kolkata,East India,Road - Heavy Truck,1499,9.22,0.08,1105.66,11,1,95837.45,25920.6,84.47
+575,ORD00575,Furniture,Chennai,Hyderabad,South India,Road - Heavy Truck,2442,2.93,0.08,572.4,12,1,42159.61,7085.12,87.14
+576,ORD00576,Pharmaceuticals,Mumbai,Ahmedabad,East India,Rail,84,5.7,0.02,9.58,2,0,84010.5,33302.73,99.95
+577,ORD00577,Electronics,Chennai,Mumbai,North India,Road - Medium Truck,1081,7.39,0.1,798.86,2,0,23342.56,9171.06,96.01
+578,ORD00578,Pharmaceuticals,Bangalore,Mumbai,South India,Road - Heavy Truck,582,8.64,0.08,402.28,11,1,40716.05,6956.04,87.99
+579,ORD00579,Groceries,Hyderabad,Kolkata,South India,Rail,360,3.3,0.02,23.76,5,0,65684.15,8091.72,99.88
+580,ORD00580,Apparel,Kolkata,Bangalore,West India,Road - Heavy Truck,305,3.13,0.08,76.37,1,0,41365.91,12418.19,99.62
+581,ORD00581,Electronics,Bangalore,Pune,South India,Road - Heavy Truck,871,5.17,0.08,360.25,8,1,62978.68,21820.06,88.2
+582,ORD00582,Apparel,Ahmedabad,Delhi,West India,Road - Heavy Truck,1110,9.17,0.08,814.3,10,1,14812.28,5600.88,85.93
+583,ORD00583,Furniture,Hyderabad,Pune,North India,Road - Medium Truck,53,6.7,0.1,35.51,5,0,93624.9,18782.86,99.82
+584,ORD00584,Pharmaceuticals,Chennai,Delhi,West India,Air,1704,5.04,0.6,5152.9,2,0,85184.67,14116.71,74.24
+585,ORD00585,Apparel,Pune,Delhi,North India,Air,2242,1.65,0.6,2219.58,11,1,93829.01,27428.52,78.9
+586,ORD00586,Furniture,Bangalore,Delhi,West India,Rail,1442,5.58,0.02,160.93,5,0,12643.39,3313.94,99.2
+587,ORD00587,Groceries,Mumbai,Ahmedabad,South India,Road - Medium Truck,1647,3.34,0.1,550.1,6,0,90163.77,19007.86,97.25
+588,ORD00588,Groceries,Mumbai,Kolkata,West India,Road - Medium Truck,153,0.84,0.1,12.85,8,1,73375.21,16297.84,89.94
+589,ORD00589,Electronics,Pune,Mumbai,South India,Air,117,9.68,0.6,679.54,12,1,8519.05,3264.36,86.6
+590,ORD00590,Electronics,Bangalore,Ahmedabad,North India,Air,2247,9.43,0.6,12713.53,2,0,19150.59,4331.79,36.43
+591,ORD00591,Furniture,Delhi,Kolkata,North India,Air,237,9.12,0.6,1296.86,1,0,28054.84,5761.46,93.52
+592,ORD00592,Groceries,Chennai,Mumbai,South India,Air,2470,6.31,0.6,9351.42,2,0,11075.97,1714.1,53.24
+593,ORD00593,Pharmaceuticals,Bangalore,Hyderabad,South India,Air,1696,3.7,0.6,3765.12,10,1,35802.32,3839.58,71.17
+594,ORD00594,Furniture,Hyderabad,Bangalore,West India,Road - Heavy Truck,1424,6.13,0.08,698.33,7,0,11006.08,3498.08,96.51
+595,ORD00595,Pharmaceuticals,Pune,Bangalore,North India,Road - Medium Truck,216,9.29,0.1,200.66,11,1,17670.23,2874.67,89.0
+596,ORD00596,Pharmaceuticals,Kolkata,Pune,West India,Air,79,1.27,0.6,60.2,11,1,22044.22,8228.17,89.7
+597,ORD00597,Pharmaceuticals,Delhi,Bangalore,West India,Road - Medium Truck,1159,2.46,0.1,285.11,3,0,54693.25,15116.7,98.57
+598,ORD00598,Furniture,Mumbai,Mumbai,East India,Road - Heavy Truck,1283,6.46,0.08,663.05,4,0,38046.09,15166.27,96.68
+599,ORD00599,Groceries,Ahmedabad,Bangalore,South India,Road - Medium Truck,902,4.91,0.1,442.88,3,0,31260.53,10687.48,97.79
+600,ORD00600,Pharmaceuticals,Ahmedabad,Delhi,North India,Road - Heavy Truck,1541,1.01,0.08,124.51,6,0,32081.13,8649.02,99.38
+601,ORD00601,Electronics,Mumbai,Chennai,West India,Road - Heavy Truck,770,9.29,0.08,572.26,9,1,20014.33,7831.22,87.14
+602,ORD00602,Electronics,Chennai,Pune,South India,Rail,1384,4.48,0.02,124.01,4,0,26856.01,9855.09,99.38
+603,ORD00603,Furniture,Chennai,Ahmedabad,South India,Air,351,8.97,0.6,1889.08,7,0,49744.07,12668.7,90.55
+604,ORD00604,Furniture,Hyderabad,Bangalore,North India,Air,1924,4.05,0.6,4675.32,5,0,73383.02,15439.32,76.62
+605,ORD00605,Apparel,Chennai,Kolkata,South India,Road - Heavy Truck,505,3.17,0.08,128.07,3,0,85906.88,22544.23,99.36
+606,ORD00606,Groceries,Chennai,Ahmedabad,West India,Road - Medium Truck,2314,5.99,0.1,1386.09,9,1,86225.38,32253.27,83.07
+607,ORD00607,Groceries,Chennai,Bangalore,North India,Rail,1803,0.64,0.02,23.08,6,0,74936.99,24429.74,99.88
+608,ORD00608,Electronics,Pune,Pune,West India,Air,214,9.81,0.6,1259.6,9,1,99170.98,17846.52,83.7
+609,ORD00609,Groceries,Chennai,Bangalore,East India,Road - Heavy Truck,1035,4.8,0.08,397.44,12,1,12893.69,2244.49,88.01
+610,ORD00610,Groceries,Delhi,Ahmedabad,West India,Rail,421,2.77,0.02,23.32,3,0,6513.37,1298.05,99.88
+611,ORD00611,Groceries,Delhi,Mumbai,West India,Road - Medium Truck,1710,8.8,0.1,1504.8,11,1,22569.85,3126.7,82.48
+612,ORD00612,Pharmaceuticals,Chennai,Mumbai,East India,Rail,1264,5.54,0.02,140.05,10,1,45460.71,14504.84,89.3
+613,ORD00613,Groceries,Delhi,Hyderabad,East India,Road - Heavy Truck,1540,5.39,0.08,664.05,6,0,89357.9,32768.44,96.68
+614,ORD00614,Apparel,Chennai,Mumbai,West India,Road - Medium Truck,324,6.66,0.1,215.78,3,0,58272.03,9785.47,98.92
+615,ORD00615,Groceries,Kolkata,Delhi,North India,Road - Medium Truck,973,7.66,0.1,745.32,9,1,35444.06,4629.71,86.27
+616,ORD00616,Pharmaceuticals,Kolkata,Ahmedabad,East India,Rail,2041,3.78,0.02,154.3,8,1,52637.76,7955.25,89.23
+617,ORD00617,Apparel,Mumbai,Mumbai,South India,Road - Heavy Truck,1925,2.29,0.08,352.66,3,0,13294.33,3759.57,98.24
+618,ORD00618,Electronics,Kolkata,Pune,South India,Rail,656,1.56,0.02,20.47,9,1,52151.23,7170.9,89.9
+619,ORD00619,Electronics,Delhi,Chennai,East India,Air,1868,3.79,0.6,4247.83,4,0,75082.38,29549.07,78.76
+620,ORD00620,Pharmaceuticals,Ahmedabad,Ahmedabad,East India,Air,1386,6.0,0.6,4989.6,9,1,51184.1,10249.28,65.05
+621,ORD00621,Apparel,Kolkata,Delhi,South India,Road - Medium Truck,1305,9.03,0.1,1178.41,8,1,21315.03,6863.39,84.11
+622,ORD00622,Apparel,Bangalore,Bangalore,South India,Rail,731,3.2,0.02,46.78,9,1,63769.87,22431.88,89.77
+623,ORD00623,Apparel,Hyderabad,Bangalore,South India,Road - Medium Truck,218,2.76,0.1,60.17,8,1,99408.44,22629.58,89.7
+624,ORD00624,Pharmaceuticals,Kolkata,Mumbai,North India,Road - Heavy Truck,1458,6.82,0.08,795.48,3,0,19054.7,5058.48,96.02
+625,ORD00625,Electronics,Hyderabad,Kolkata,West India,Air,645,9.35,0.6,3618.45,3,0,95039.96,11562.24,81.91
+626,ORD00626,Groceries,Hyderabad,Mumbai,West India,Rail,2399,9.71,0.02,465.89,12,1,68354.33,10945.38,87.67
+627,ORD00627,Furniture,Ahmedabad,Hyderabad,North India,Road - Heavy Truck,2306,1.82,0.08,335.75,10,1,16103.23,6321.51,88.32
+628,ORD00628,Furniture,Delhi,Mumbai,West India,Rail,849,1.02,0.02,17.32,5,0,60425.99,20143.42,99.91
+629,ORD00629,Pharmaceuticals,Delhi,Hyderabad,West India,Road - Heavy Truck,1665,9.77,0.08,1301.36,10,1,23472.75,7151.51,83.49
+630,ORD00630,Apparel,Hyderabad,Kolkata,West India,Road - Medium Truck,1801,7.3,0.1,1314.73,5,0,40114.85,11559.12,93.43
+631,ORD00631,Apparel,Bangalore,Pune,West India,Road - Heavy Truck,1869,2.55,0.08,381.28,8,1,75445.13,20771.33,88.09
+632,ORD00632,Pharmaceuticals,Hyderabad,Mumbai,West India,Road - Medium Truck,2499,8.44,0.1,2109.16,8,1,13177.41,4449.55,79.45
+633,ORD00633,Pharmaceuticals,Bangalore,Chennai,South India,Road - Heavy Truck,1169,0.56,0.08,52.37,12,1,44378.83,10351.62,89.74
+634,ORD00634,Apparel,Ahmedabad,Ahmedabad,South India,Air,2059,3.25,0.6,4015.05,10,1,9012.13,1370.97,69.92
+635,ORD00635,Groceries,Mumbai,Kolkata,West India,Road - Heavy Truck,680,8.02,0.08,436.29,11,1,29954.32,3390.59,87.82
+636,ORD00636,Electronics,Hyderabad,Ahmedabad,West India,Road - Medium Truck,1052,5.17,0.1,543.88,8,1,7702.05,1313.85,87.28
+637,ORD00637,Pharmaceuticals,Delhi,Kolkata,South India,Rail,1999,6.47,0.02,258.67,6,0,97554.58,15073.72,98.71
+638,ORD00638,Electronics,Kolkata,Hyderabad,West India,Road - Heavy Truck,1938,1.89,0.08,293.03,3,0,88440.14,31781.03,98.53
+639,ORD00639,Furniture,Bangalore,Mumbai,South India,Rail,1244,0.96,0.02,23.88,9,1,55313.17,6588.07,89.88
+640,ORD00640,Electronics,Hyderabad,Bangalore,North India,Rail,1283,8.79,0.02,225.55,6,0,30788.6,5868.61,98.87
+641,ORD00641,Electronics,Chennai,Bangalore,South India,Road - Medium Truck,1577,5.42,0.1,854.73,3,0,78986.75,21832.07,95.73
+642,ORD00642,Pharmaceuticals,Mumbai,Pune,West India,Road - Medium Truck,2338,8.05,0.1,1882.09,9,1,63275.69,9527.75,80.59
+643,ORD00643,Apparel,Bangalore,Ahmedabad,East India,Road - Heavy Truck,587,1.61,0.08,75.61,5,0,92723.93,23750.73,99.62
+644,ORD00644,Furniture,Chennai,Kolkata,South India,Road - Medium Truck,167,7.24,0.1,120.91,3,0,75723.72,27595.31,99.4
+645,ORD00645,Electronics,Delhi,Ahmedabad,West India,Road - Medium Truck,371,1.74,0.1,64.55,2,0,45356.48,7760.17,99.68
+646,ORD00646,Groceries,Mumbai,Kolkata,North India,Road - Heavy Truck,184,2.37,0.08,34.89,1,0,80340.24,19760.18,99.83
+647,ORD00647,Furniture,Chennai,Bangalore,East India,Road - Heavy Truck,92,3.37,0.08,24.8,10,1,76682.28,12674.72,89.88
+648,ORD00648,Pharmaceuticals,Chennai,Mumbai,North India,Road - Heavy Truck,1186,1.36,0.08,129.04,3,0,95135.2,28126.63,99.35
+649,ORD00649,Electronics,Mumbai,Chennai,West India,Road - Heavy Truck,834,5.52,0.08,368.29,9,1,96605.06,33663.77,88.16
+650,ORD00650,Apparel,Pune,Pune,South India,Rail,808,7.13,0.02,115.22,3,0,46768.25,5269.64,99.42
+651,ORD00651,Groceries,Hyderabad,Kolkata,North India,Road - Medium Truck,1337,4.37,0.1,584.27,3,0,16743.46,6143.26,97.08
+652,ORD00652,Apparel,Ahmedabad,Chennai,West India,Road - Heavy Truck,523,3.62,0.08,151.46,12,1,41554.21,10925.28,89.24
+653,ORD00653,Apparel,Bangalore,Delhi,West India,Rail,1802,9.86,0.02,355.35,8,1,22934.57,8694.89,88.22
+654,ORD00654,Groceries,Pune,Mumbai,South India,Road - Heavy Truck,2190,4.27,0.08,748.1,3,0,67562.09,25301.88,96.26
+655,ORD00655,Electronics,Chennai,Pune,West India,Road - Heavy Truck,865,3.96,0.08,274.03,7,0,37170.01,8233.59,98.63
+656,ORD00656,Groceries,Hyderabad,Ahmedabad,West India,Rail,2433,7.77,0.02,378.09,11,1,61396.75,10628.34,88.11
+657,ORD00657,Groceries,Ahmedabad,Chennai,South India,Air,653,5.36,0.6,2100.05,5,0,77959.96,28657.22,89.5
+658,ORD00658,Furniture,Pune,Hyderabad,South India,Road - Heavy Truck,266,1.45,0.08,30.86,1,0,83879.68,21016.85,99.85
+659,ORD00659,Groceries,Ahmedabad,Chennai,East India,Rail,444,6.41,0.02,56.92,9,1,77216.29,15572.66,89.72
+660,ORD00660,Pharmaceuticals,Delhi,Delhi,West India,Air,1121,5.16,0.6,3470.62,9,1,56531.62,8884.26,72.65
+661,ORD00661,Electronics,Bangalore,Kolkata,South India,Road - Heavy Truck,1338,4.14,0.08,443.15,1,0,86023.06,22988.21,97.78
+662,ORD00662,Pharmaceuticals,Ahmedabad,Ahmedabad,West India,Air,1329,4.59,0.6,3660.07,2,0,72993.7,18523.14,81.7
+663,ORD00663,Pharmaceuticals,Hyderabad,Kolkata,East India,Road - Medium Truck,1653,5.31,0.1,877.74,7,0,30022.14,6685.52,95.61
+664,ORD00664,Pharmaceuticals,Delhi,Hyderabad,West India,Road - Heavy Truck,234,0.77,0.08,14.41,12,1,17178.82,4983.18,89.93
+665,ORD00665,Furniture,Chennai,Kolkata,North India,Road - Heavy Truck,1513,4.57,0.08,553.15,4,0,44133.31,16905.94,97.23
+666,ORD00666,Electronics,Ahmedabad,Pune,West India,Road - Heavy Truck,518,8.75,0.08,362.6,6,0,37071.45,14609.35,98.19
+667,ORD00667,Pharmaceuticals,Pune,Hyderabad,North India,Rail,1973,0.69,0.02,27.23,7,0,60858.98,6345.8,99.86
+668,ORD00668,Apparel,Bangalore,Kolkata,East India,Air,893,1.45,0.6,776.91,11,1,36916.91,9198.57,86.12
+669,ORD00669,Apparel,Delhi,Kolkata,West India,Air,358,2.42,0.6,519.82,5,0,84836.15,20297.03,97.4
+670,ORD00670,Apparel,Kolkata,Mumbai,West India,Road - Medium Truck,426,6.43,0.1,273.92,10,1,73182.15,16578.83,88.63
+671,ORD00671,Groceries,Hyderabad,Chennai,West India,Air,364,2.49,0.6,543.82,5,0,66896.0,20700.69,97.28
+672,ORD00672,Electronics,Bangalore,Ahmedabad,South India,Air,2160,2.89,0.6,3745.44,3,0,48056.72,8216.13,81.27
+673,ORD00673,Pharmaceuticals,Delhi,Chennai,East India,Air,2232,3.05,0.6,4084.56,7,0,81848.68,11799.93,79.58
+674,ORD00674,Groceries,Hyderabad,Mumbai,South India,Air,666,1.9,0.6,759.24,7,0,75911.18,12930.78,96.2
+675,ORD00675,Furniture,Pune,Chennai,North India,Air,1225,3.04,0.6,2234.4,10,1,66374.05,21443.2,78.83
+676,ORD00676,Pharmaceuticals,Pune,Pune,North India,Road - Medium Truck,1055,2.32,0.1,244.76,8,1,80719.25,24767.72,88.78
+677,ORD00677,Pharmaceuticals,Bangalore,Delhi,West India,Road - Medium Truck,608,2.01,0.1,122.21,5,0,7768.48,1267.03,99.39
+678,ORD00678,Groceries,Hyderabad,Mumbai,West India,Road - Heavy Truck,393,1.03,0.08,32.38,2,0,34820.95,10815.6,99.84
+679,ORD00679,Pharmaceuticals,Kolkata,Ahmedabad,North India,Road - Medium Truck,2388,2.74,0.1,654.31,9,1,74775.64,8982.0,86.73
+680,ORD00680,Furniture,Pune,Chennai,South India,Road - Medium Truck,1333,6.2,0.1,826.46,7,0,36282.16,8152.68,95.87
+681,ORD00681,Electronics,Ahmedabad,Hyderabad,North India,Road - Heavy Truck,1174,2.16,0.08,202.87,10,1,46750.16,15133.41,88.99
+682,ORD00682,Apparel,Ahmedabad,Hyderabad,East India,Rail,1995,5.68,0.02,226.63,3,0,69860.15,7754.85,98.87
+683,ORD00683,Furniture,Kolkata,Pune,East India,Road - Heavy Truck,192,6.63,0.08,101.84,1,0,84939.93,17101.21,99.49
+684,ORD00684,Groceries,Delhi,Pune,East India,Rail,549,9.08,0.02,99.7,8,1,55816.52,18368.4,89.5
+685,ORD00685,Groceries,Hyderabad,Pune,North India,Rail,1014,1.36,0.02,27.58,3,0,33255.18,4728.05,99.86
+686,ORD00686,Groceries,Mumbai,Bangalore,East India,Rail,2063,8.73,0.02,360.2,6,0,49753.67,13737.57,98.2
+687,ORD00687,Electronics,Bangalore,Ahmedabad,South India,Road - Heavy Truck,2293,3.84,0.08,704.41,1,0,75089.62,19825.27,96.48
+688,ORD00688,Furniture,Bangalore,Pune,East India,Road - Heavy Truck,1301,4.31,0.08,448.58,3,0,34803.57,13062.84,97.76
+689,ORD00689,Apparel,Chennai,Mumbai,West India,Air,596,5.04,0.6,1802.3,6,0,29764.59,5767.19,90.99
+690,ORD00690,Electronics,Delhi,Chennai,North India,Rail,1595,2.23,0.02,71.14,4,0,94751.93,12762.85,99.64
+691,ORD00691,Apparel,Bangalore,Mumbai,East India,Air,741,2.38,0.6,1058.15,10,1,9729.38,2087.91,84.71
+692,ORD00692,Groceries,Mumbai,Chennai,South India,Road - Medium Truck,530,9.5,0.1,503.5,8,1,6340.92,1536.08,87.48
+693,ORD00693,Groceries,Chennai,Chennai,East India,Road - Medium Truck,1140,9.49,0.1,1081.86,3,0,32356.39,8145.71,94.59
+694,ORD00694,Furniture,Ahmedabad,Chennai,East India,Road - Medium Truck,1723,4.47,0.1,770.18,5,0,80284.04,31420.61,96.15
+695,ORD00695,Groceries,Chennai,Pune,West India,Air,1970,1.31,0.6,1548.42,12,1,17654.47,5349.77,82.26
+696,ORD00696,Groceries,Hyderabad,Delhi,North India,Rail,2331,1.19,0.02,55.48,4,0,10581.47,3175.94,99.72
+697,ORD00697,Furniture,Delhi,Bangalore,East India,Rail,1610,5.29,0.02,170.34,6,0,33738.2,9500.37,99.15
+698,ORD00698,Pharmaceuticals,Pune,Bangalore,East India,Road - Medium Truck,1439,5.29,0.1,761.23,6,0,88400.19,31861.56,96.19
+699,ORD00699,Apparel,Pune,Kolkata,East India,Road - Heavy Truck,573,3.48,0.08,159.52,5,0,52425.01,5661.3,99.2
+700,ORD00700,Furniture,Ahmedabad,Delhi,South India,Rail,1834,5.41,0.02,198.44,8,1,89803.82,27420.44,89.01
+701,ORD00701,Groceries,Pune,Mumbai,West India,Road - Medium Truck,800,1.02,0.1,81.6,12,1,8406.91,2706.46,89.59
+702,ORD00702,Furniture,Mumbai,Hyderabad,North India,Road - Heavy Truck,2347,4.69,0.08,880.59,12,1,51093.95,12880.96,85.6
+703,ORD00703,Pharmaceuticals,Chennai,Delhi,South India,Road - Medium Truck,789,8.75,0.1,690.38,5,0,84320.6,14757.71,96.55
+704,ORD00704,Electronics,Kolkata,Mumbai,West India,Air,1058,9.24,0.6,5865.55,6,0,77984.08,15357.21,70.67
+705,ORD00705,Groceries,Ahmedabad,Ahmedabad,East India,Rail,484,6.11,0.02,59.14,2,0,84512.83,29906.33,99.7
+706,ORD00706,Pharmaceuticals,Bangalore,Chennai,North India,Road - Heavy Truck,229,3.63,0.08,66.5,6,0,67336.41,7725.59,99.67
+707,ORD00707,Groceries,Mumbai,Pune,East India,Rail,277,3.57,0.02,19.78,10,1,75661.0,17844.88,89.9
+708,ORD00708,Groceries,Pune,Kolkata,South India,Road - Medium Truck,1683,2.78,0.1,467.87,3,0,13472.89,1944.09,97.66
+709,ORD00709,Pharmaceuticals,Bangalore,Hyderabad,North India,Road - Heavy Truck,1820,3.34,0.08,486.3,11,1,74909.48,9250.58,87.57
+710,ORD00710,Pharmaceuticals,Pune,Mumbai,West India,Rail,2055,5.37,0.02,220.71,5,0,47317.03,13417.84,98.9
+711,ORD00711,Apparel,Ahmedabad,Chennai,South India,Rail,1828,6.33,0.02,231.42,9,1,64915.19,24155.97,88.84
+712,ORD00712,Groceries,Kolkata,Bangalore,South India,Air,2199,5.51,0.6,7269.89,2,0,12977.16,3368.02,63.65
+713,ORD00713,Electronics,Delhi,Mumbai,West India,Rail,2192,8.49,0.02,372.2,9,1,45634.52,10470.35,88.14
+714,ORD00714,Electronics,Delhi,Mumbai,West India,Air,2378,1.4,0.6,1997.52,10,1,82218.35,24119.8,80.01
+715,ORD00715,Apparel,Hyderabad,Ahmedabad,West India,Road - Medium Truck,1659,7.97,0.1,1322.22,12,1,9299.58,2558.54,83.39
+716,ORD00716,Apparel,Mumbai,Pune,North India,Rail,816,3.74,0.02,61.04,10,1,25051.5,9432.74,89.69
+717,ORD00717,Groceries,Ahmedabad,Kolkata,East India,Road - Heavy Truck,104,4.25,0.08,35.36,12,1,21314.86,5475.02,89.82
+718,ORD00718,Electronics,Chennai,Delhi,South India,Air,408,8.14,0.6,1992.67,2,0,16883.5,6683.12,90.04
+719,ORD00719,Furniture,Mumbai,Kolkata,West India,Air,1040,6.66,0.6,4155.84,9,1,46399.91,9845.24,69.22
+720,ORD00720,Groceries,Ahmedabad,Ahmedabad,North India,Road - Medium Truck,139,5.0,0.1,69.5,12,1,16063.59,2076.63,89.65
+721,ORD00721,Electronics,Hyderabad,Delhi,North India,Air,874,6.06,0.6,3177.86,7,0,33008.98,4989.79,84.11
+722,ORD00722,Apparel,Delhi,Ahmedabad,West India,Air,2080,9.81,0.6,12242.88,9,1,75022.44,16598.57,28.79
+723,ORD00723,Groceries,Hyderabad,Mumbai,East India,Air,2048,5.38,0.6,6610.94,1,0,27031.05,10320.15,66.95
+724,ORD00724,Groceries,Pune,Delhi,South India,Air,528,8.95,0.6,2835.36,6,0,52004.94,6152.74,85.82
+725,ORD00725,Pharmaceuticals,Hyderabad,Ahmedabad,South India,Rail,1972,7.4,0.02,291.86,4,0,37665.5,12443.52,98.54
+726,ORD00726,Apparel,Ahmedabad,Bangalore,South India,Rail,1648,7.37,0.02,242.92,11,1,96181.32,14434.49,88.79
+727,ORD00727,Furniture,Ahmedabad,Mumbai,West India,Rail,403,7.06,0.02,56.9,4,0,68370.36,24700.23,99.72
+728,ORD00728,Apparel,Hyderabad,Bangalore,South India,Air,907,3.38,0.6,1839.4,6,0,57898.9,5802.72,90.8
+729,ORD00729,Pharmaceuticals,Chennai,Ahmedabad,East India,Road - Heavy Truck,1433,8.16,0.08,935.46,2,0,45908.94,9858.08,95.32
+730,ORD00730,Pharmaceuticals,Mumbai,Delhi,West India,Rail,241,7.96,0.02,38.37,3,0,78159.01,18202.71,99.81
+731,ORD00731,Electronics,Delhi,Mumbai,South India,Air,504,9.65,0.6,2918.16,10,1,97592.68,16152.01,75.41
+732,ORD00732,Pharmaceuticals,Ahmedabad,Mumbai,South India,Road - Heavy Truck,1531,8.77,0.08,1074.15,8,1,19918.09,6221.68,84.63
+733,ORD00733,Electronics,Chennai,Ahmedabad,East India,Rail,614,3.68,0.02,45.19,7,0,16683.43,5662.91,99.77
+734,ORD00734,Apparel,Chennai,Bangalore,West India,Rail,399,5.3,0.02,42.29,7,0,30271.48,5613.55,99.79
+735,ORD00735,Pharmaceuticals,Hyderabad,Delhi,West India,Road - Medium Truck,1806,1.81,0.1,326.89,8,1,44273.89,12273.04,88.37
+736,ORD00736,Groceries,Bangalore,Pune,North India,Road - Medium Truck,2169,7.82,0.1,1696.16,6,0,94646.07,35451.25,91.52
+737,ORD00737,Pharmaceuticals,Kolkata,Pune,West India,Air,668,7.71,0.6,3090.17,11,1,90738.56,34721.75,74.55
+738,ORD00738,Pharmaceuticals,Bangalore,Pune,West India,Rail,1334,7.35,0.02,196.1,5,0,91376.93,36334.15,99.02
+739,ORD00739,Groceries,Chennai,Kolkata,North India,Road - Medium Truck,1861,8.93,0.1,1661.87,11,1,71259.74,9527.25,81.69
+740,ORD00740,Pharmaceuticals,Kolkata,Chennai,North India,Road - Heavy Truck,1647,5.61,0.08,739.17,3,0,73884.37,13150.26,96.3
+741,ORD00741,Pharmaceuticals,Kolkata,Chennai,East India,Rail,705,5.45,0.02,76.84,9,1,7225.07,960.24,89.62
+742,ORD00742,Pharmaceuticals,Hyderabad,Mumbai,North India,Air,502,9.88,0.6,2975.86,5,0,74538.69,10996.32,85.12
+743,ORD00743,Pharmaceuticals,Chennai,Hyderabad,East India,Road - Heavy Truck,2394,4.76,0.08,911.64,4,0,75001.58,19804.61,95.44
+744,ORD00744,Furniture,Mumbai,Hyderabad,South India,Rail,2396,6.84,0.02,327.77,9,1,68881.21,12790.88,88.36
+745,ORD00745,Electronics,Delhi,Pune,South India,Rail,650,4.82,0.02,62.66,2,0,72605.84,10997.51,99.69
+746,ORD00746,Pharmaceuticals,Pune,Kolkata,West India,Air,369,2.54,0.6,562.36,10,1,40082.95,9705.02,87.19
+747,ORD00747,Furniture,Bangalore,Ahmedabad,West India,Air,2055,9.97,0.6,12293.01,3,0,74513.11,20485.39,38.53
+748,ORD00748,Groceries,Ahmedabad,Delhi,South India,Road - Medium Truck,2152,9.7,0.1,2087.44,4,0,87010.81,31722.62,89.56
+749,ORD00749,Apparel,Kolkata,Delhi,South India,Rail,536,9.26,0.02,99.27,2,0,62152.02,17241.84,99.5
+750,ORD00750,Furniture,Pune,Delhi,East India,Road - Heavy Truck,1583,4.03,0.08,510.36,3,0,33809.71,8595.18,97.45
+751,ORD00751,Electronics,Pune,Ahmedabad,East India,Rail,2052,2.55,0.02,104.65,2,0,5198.15,1225.41,99.48
+752,ORD00752,Furniture,Bangalore,Ahmedabad,West India,Air,1595,9.05,0.6,8660.85,10,1,50146.62,9226.47,46.7
+753,ORD00753,Groceries,Pune,Chennai,West India,Air,1382,1.92,0.6,1592.06,10,1,13484.92,2866.47,82.04
+754,ORD00754,Electronics,Kolkata,Mumbai,North India,Rail,1864,5.64,0.02,210.26,3,0,74911.72,15448.67,98.95
+755,ORD00755,Pharmaceuticals,Chennai,Ahmedabad,North India,Road - Medium Truck,2269,9.57,0.1,2171.43,10,1,59801.28,22971.93,79.14
+756,ORD00756,Furniture,Ahmedabad,Mumbai,East India,Road - Heavy Truck,2228,6.75,0.08,1203.12,4,0,22075.62,8704.59,93.98
+757,ORD00757,Furniture,Pune,Delhi,East India,Air,2063,6.09,0.6,7538.2,7,0,86887.56,34148.64,62.31
+758,ORD00758,Furniture,Bangalore,Kolkata,North India,Air,519,2.94,0.6,915.52,5,0,98079.68,23290.61,95.42
+759,ORD00759,Furniture,Delhi,Delhi,East India,Road - Medium Truck,1718,3.41,0.1,585.84,6,0,69467.81,26559.34,97.07
+760,ORD00760,Electronics,Delhi,Chennai,South India,Air,633,1.44,0.6,546.91,7,0,44218.17,13386.37,97.27
+761,ORD00761,Apparel,Ahmedabad,Pune,North India,Road - Medium Truck,2116,5.18,0.1,1096.09,1,0,41579.62,15196.34,94.52
+762,ORD00762,Pharmaceuticals,Mumbai,Chennai,South India,Air,1007,0.77,0.6,465.23,9,1,91804.83,36209.03,87.67
+763,ORD00763,Furniture,Hyderabad,Bangalore,South India,Rail,1876,5.9,0.02,221.37,4,0,12971.29,2714.38,98.89
+764,ORD00764,Pharmaceuticals,Kolkata,Bangalore,North India,Air,2323,9.63,0.6,13422.29,8,1,47915.49,19151.81,22.89
+765,ORD00765,Groceries,Hyderabad,Chennai,East India,Road - Heavy Truck,2025,9.37,0.08,1517.94,11,1,30963.78,10054.97,82.41
+766,ORD00766,Electronics,Bangalore,Kolkata,West India,Road - Heavy Truck,2237,2.03,0.08,363.29,7,0,58492.75,18121.55,98.18
+767,ORD00767,Apparel,Ahmedabad,Kolkata,South India,Road - Medium Truck,1353,6.3,0.1,852.39,11,1,88973.5,10354.51,85.74
+768,ORD00768,Furniture,Delhi,Ahmedabad,North India,Rail,1933,3.75,0.02,144.97,12,1,96104.3,28971.87,89.28
+769,ORD00769,Groceries,Mumbai,Mumbai,North India,Road - Heavy Truck,1742,6.89,0.08,960.19,8,1,57800.11,11042.89,85.2
+770,ORD00770,Apparel,Pune,Bangalore,North India,Air,1495,6.89,0.6,6180.33,10,1,97343.71,27946.12,59.1
+771,ORD00771,Apparel,Hyderabad,Chennai,North India,Road - Heavy Truck,840,4.9,0.08,329.28,1,0,47234.88,15754.9,98.35
+772,ORD00772,Electronics,Kolkata,Ahmedabad,South India,Rail,955,8.18,0.02,156.24,6,0,27254.5,6864.25,99.22
+773,ORD00773,Groceries,Bangalore,Chennai,South India,Road - Heavy Truck,1672,2.36,0.08,315.67,9,1,15539.92,4922.98,88.42
+774,ORD00774,Pharmaceuticals,Kolkata,Chennai,North India,Road - Heavy Truck,316,6.09,0.08,153.96,4,0,17105.94,2051.53,99.23
+775,ORD00775,Electronics,Hyderabad,Pune,West India,Rail,1909,6.97,0.02,266.11,11,1,5185.72,1409.82,88.67
+776,ORD00776,Furniture,Delhi,Kolkata,West India,Rail,2172,1.66,0.02,72.11,1,0,49325.74,14381.34,99.64
+777,ORD00777,Electronics,Chennai,Pune,North India,Air,1655,3.5,0.6,3475.5,10,1,23487.77,8818.66,72.62
+778,ORD00778,Electronics,Ahmedabad,Pune,North India,Road - Medium Truck,1398,2.37,0.1,331.33,2,0,34526.56,7326.59,98.34
+779,ORD00779,Electronics,Hyderabad,Chennai,North India,Rail,1062,8.48,0.02,180.12,6,0,15244.86,5007.82,99.1
+780,ORD00780,Electronics,Pune,Hyderabad,North India,Air,1878,7.76,0.6,8743.97,1,0,59998.77,22459.91,56.28
+781,ORD00781,Electronics,Mumbai,Delhi,North India,Road - Medium Truck,1860,1.09,0.1,202.74,7,0,10204.94,2212.21,98.99
+782,ORD00782,Pharmaceuticals,Delhi,Ahmedabad,West India,Rail,1695,8.57,0.02,290.52,4,0,14103.87,2459.87,98.55
+783,ORD00783,Groceries,Hyderabad,Chennai,North India,Air,464,8.05,0.6,2241.12,1,0,37263.57,4424.1,88.79
+784,ORD00784,Furniture,Kolkata,Hyderabad,West India,Road - Heavy Truck,326,0.62,0.08,16.17,10,1,61324.22,9061.64,89.92
+785,ORD00785,Electronics,Bangalore,Kolkata,West India,Air,1871,7.38,0.6,8284.79,1,0,22662.72,8129.08,58.58
+786,ORD00786,Pharmaceuticals,Hyderabad,Kolkata,East India,Rail,2266,3.46,0.02,156.81,5,0,78672.09,27989.74,99.22
+787,ORD00787,Electronics,Pune,Hyderabad,South India,Road - Heavy Truck,642,5.42,0.08,278.37,9,1,10445.18,2589.02,88.61
+788,ORD00788,Groceries,Ahmedabad,Hyderabad,East India,Road - Medium Truck,874,6.59,0.1,575.97,11,1,79600.06,23683.76,87.12
+789,ORD00789,Groceries,Chennai,Delhi,South India,Rail,714,4.48,0.02,63.97,1,0,14960.55,2052.11,99.68
+790,ORD00790,Groceries,Chennai,Pune,South India,Road - Medium Truck,923,4.93,0.1,455.04,6,0,27706.81,4976.81,97.72
+791,ORD00791,Apparel,Ahmedabad,Chennai,East India,Road - Heavy Truck,352,3.95,0.08,111.23,3,0,38999.23,9109.93,99.44
+792,ORD00792,Furniture,Hyderabad,Chennai,South India,Road - Heavy Truck,865,9.77,0.08,676.08,5,0,23793.37,8274.29,96.62
+793,ORD00793,Furniture,Pune,Mumbai,East India,Road - Medium Truck,1122,0.7,0.1,78.54,11,1,91511.65,36028.31,89.61
+794,ORD00794,Pharmaceuticals,Pune,Mumbai,North India,Road - Medium Truck,1033,3.4,0.1,351.22,3,0,40115.86,11565.2,98.24
+795,ORD00795,Apparel,Hyderabad,Pune,South India,Road - Medium Truck,585,8.89,0.1,520.07,7,0,80515.32,27576.14,97.4
+796,ORD00796,Apparel,Chennai,Delhi,East India,Road - Heavy Truck,2455,7.75,0.08,1522.1,3,0,22964.71,5496.82,92.39
+797,ORD00797,Groceries,Mumbai,Bangalore,West India,Road - Medium Truck,2442,8.59,0.1,2097.68,2,0,89154.26,30065.38,89.51
+798,ORD00798,Groceries,Ahmedabad,Ahmedabad,East India,Rail,1951,5.24,0.02,204.46,9,1,22004.86,4098.49,88.98
+799,ORD00799,Groceries,Chennai,Pune,South India,Air,2441,6.56,0.6,9607.78,4,0,66725.04,22542.4,51.96
+800,ORD00800,Apparel,Mumbai,Bangalore,North India,Rail,1594,4.54,0.02,144.74,6,0,59280.19,7075.11,99.28
+801,ORD00801,Pharmaceuticals,Hyderabad,Pune,West India,Rail,1490,4.72,0.02,140.66,9,1,26866.87,10415.13,89.3
+802,ORD00802,Electronics,Bangalore,Ahmedabad,South India,Air,1555,4.61,0.6,4301.13,7,0,81427.92,24826.87,78.49
+803,ORD00803,Pharmaceuticals,Mumbai,Kolkata,South India,Rail,1520,6.63,0.02,201.55,9,1,90640.21,28247.54,88.99
+804,ORD00804,Apparel,Kolkata,Kolkata,East India,Road - Heavy Truck,1525,1.63,0.08,198.86,4,0,8636.73,2935.69,99.01
+805,ORD00805,Pharmaceuticals,Kolkata,Delhi,East India,Road - Medium Truck,614,7.2,0.1,442.08,12,1,99848.48,17402.09,87.79
+806,ORD00806,Electronics,Ahmedabad,Bangalore,West India,Rail,1704,8.31,0.02,283.2,11,1,94852.43,14554.31,88.58
+807,ORD00807,Groceries,Ahmedabad,Hyderabad,North India,Road - Medium Truck,909,2.66,0.1,241.79,9,1,50071.63,12280.19,88.79
+808,ORD00808,Groceries,Ahmedabad,Delhi,East India,Rail,1806,8.54,0.02,308.46,4,0,78162.45,14899.14,98.46
+809,ORD00809,Apparel,Hyderabad,Chennai,West India,Road - Medium Truck,575,5.99,0.1,344.43,8,1,34029.33,6079.63,88.28
+810,ORD00810,Apparel,Delhi,Delhi,South India,Air,1702,7.01,0.6,7158.61,5,0,77469.95,14939.65,64.21
+811,ORD00811,Pharmaceuticals,Pune,Pune,South India,Road - Medium Truck,1402,9.78,0.1,1371.16,10,1,58978.13,9451.61,83.14
+812,ORD00812,Groceries,Kolkata,Mumbai,South India,Air,1632,1.11,0.6,1086.91,10,1,22892.17,8410.78,84.57
+813,ORD00813,Electronics,Bangalore,Chennai,North India,Road - Heavy Truck,777,6.91,0.08,429.53,8,1,8045.62,1555.16,87.85
+814,ORD00814,Electronics,Hyderabad,Delhi,South India,Air,1004,3.2,0.6,1927.68,8,1,32655.03,7924.76,80.36
+815,ORD00815,Pharmaceuticals,Pune,Ahmedabad,North India,Rail,1732,8.67,0.02,300.33,3,0,42155.0,4347.09,98.5
+816,ORD00816,Groceries,Bangalore,Kolkata,South India,Air,895,9.57,0.6,5139.09,7,0,17343.57,5867.28,74.3
+817,ORD00817,Pharmaceuticals,Chennai,Hyderabad,West India,Air,80,3.12,0.6,149.76,7,0,99153.09,26402.54,99.25
+818,ORD00818,Apparel,Kolkata,Pune,South India,Air,210,4.9,0.6,617.4,8,1,75042.62,23535.35,86.91
+819,ORD00819,Pharmaceuticals,Mumbai,Pune,North India,Air,1819,2.87,0.6,3132.32,3,0,48493.67,6146.58,84.34
+820,ORD00820,Electronics,Chennai,Ahmedabad,West India,Road - Medium Truck,696,8.91,0.1,620.14,5,0,31008.75,6560.68,96.9
+821,ORD00821,Groceries,Ahmedabad,Bangalore,East India,Road - Heavy Truck,363,9.96,0.08,289.24,6,0,76762.7,19089.47,98.55
+822,ORD00822,Groceries,Pune,Hyderabad,West India,Road - Medium Truck,1943,5.31,0.1,1031.73,11,1,7538.2,1570.51,84.84
+823,ORD00823,Apparel,Ahmedabad,Ahmedabad,West India,Road - Medium Truck,93,4.27,0.1,39.71,3,0,28807.54,5394.79,99.8
+824,ORD00824,Apparel,Bangalore,Bangalore,North India,Road - Heavy Truck,1042,1.28,0.08,106.7,8,1,72790.25,19557.5,89.47
+825,ORD00825,Electronics,Kolkata,Bangalore,West India,Road - Heavy Truck,558,2.18,0.08,97.32,2,0,55792.11,15774.95,99.51
+826,ORD00826,Electronics,Mumbai,Pune,East India,Rail,191,2.19,0.02,8.37,8,1,89805.33,21581.15,89.96
+827,ORD00827,Furniture,Hyderabad,Chennai,South India,Air,69,1.0,0.6,41.4,4,0,9623.15,2759.74,99.79
+828,ORD00828,Electronics,Chennai,Mumbai,South India,Road - Heavy Truck,164,0.65,0.08,8.53,4,0,98982.61,29582.44,99.96
+829,ORD00829,Furniture,Chennai,Pune,West India,Road - Medium Truck,2149,0.92,0.1,197.71,9,1,15229.96,4597.28,89.01
+830,ORD00830,Apparel,Delhi,Pune,South India,Road - Heavy Truck,483,2.71,0.08,104.71,7,0,38874.75,13525.05,99.48
+831,ORD00831,Furniture,Pune,Kolkata,West India,Air,1190,2.59,0.6,1849.26,2,0,66744.77,19309.66,90.75
+832,ORD00832,Apparel,Pune,Bangalore,East India,Road - Heavy Truck,2381,7.27,0.08,1384.79,10,1,21288.62,2390.49,83.08
+833,ORD00833,Apparel,Delhi,Ahmedabad,West India,Road - Medium Truck,1352,6.54,0.1,884.21,2,0,97912.05,19591.11,95.58
+834,ORD00834,Apparel,Chennai,Pune,South India,Road - Medium Truck,104,5.28,0.1,54.91,2,0,27097.56,5828.56,99.73
+835,ORD00835,Furniture,Delhi,Chennai,West India,Road - Heavy Truck,1584,1.07,0.08,135.59,7,0,52379.02,17777.25,99.32
+836,ORD00836,Groceries,Kolkata,Delhi,South India,Rail,1350,1.78,0.02,48.06,9,1,66142.2,11366.66,89.76
+837,ORD00837,Furniture,Chennai,Pune,East India,Rail,893,3.76,0.02,67.15,11,1,56234.62,7198.62,89.66
+838,ORD00838,Electronics,Bangalore,Chennai,South India,Road - Medium Truck,74,4.7,0.1,34.78,4,0,11138.6,2812.58,99.83
+839,ORD00839,Pharmaceuticals,Mumbai,Pune,West India,Road - Heavy Truck,2298,2.15,0.08,395.26,4,0,83965.98,10114.22,98.02
+840,ORD00840,Apparel,Kolkata,Ahmedabad,South India,Rail,859,2.06,0.02,35.39,4,0,28267.87,9810.91,99.82
+841,ORD00841,Groceries,Bangalore,Ahmedabad,West India,Rail,2020,8.69,0.02,351.08,7,0,12601.52,1363.91,98.24
+842,ORD00842,Electronics,Pune,Pune,North India,Air,1825,5.3,0.6,5803.5,8,1,77230.82,11902.73,60.98
+843,ORD00843,Groceries,Kolkata,Ahmedabad,East India,Rail,675,6.15,0.02,83.03,7,0,57520.95,19976.46,99.58
+844,ORD00844,Furniture,Bangalore,Chennai,North India,Air,2019,5.84,0.6,7074.58,8,1,11834.27,4248.54,54.63
+845,ORD00845,Apparel,Pune,Ahmedabad,East India,Road - Heavy Truck,1582,8.69,0.08,1099.81,7,0,51688.1,6321.08,94.5
+846,ORD00846,Furniture,Chennai,Pune,East India,Road - Heavy Truck,209,4.38,0.08,73.23,10,1,99284.88,36006.33,89.63
+847,ORD00847,Groceries,Pune,Chennai,South India,Rail,2051,5.34,0.02,219.05,1,0,65323.08,18914.03,98.9
+848,ORD00848,Furniture,Kolkata,Ahmedabad,South India,Air,1530,0.83,0.6,761.94,12,1,64940.51,12797.98,86.19
+849,ORD00849,Electronics,Mumbai,Pune,West India,Rail,2418,2.85,0.02,137.83,1,0,95418.93,14078.61,99.31
+850,ORD00850,Apparel,Kolkata,Pune,East India,Road - Heavy Truck,823,5.43,0.08,357.51,7,0,88220.59,30899.52,98.21
+851,ORD00851,Furniture,Kolkata,Chennai,West India,Air,414,7.65,0.6,1900.26,6,0,15381.04,3510.21,90.5
+852,ORD00852,Groceries,Pune,Kolkata,West India,Rail,739,0.56,0.02,8.28,2,0,82556.99,32983.7,99.96
+853,ORD00853,Pharmaceuticals,Mumbai,Ahmedabad,South India,Road - Medium Truck,813,2.18,0.1,177.23,3,0,71884.48,24483.41,99.11
+854,ORD00854,Groceries,Mumbai,Bangalore,North India,Road - Medium Truck,798,2.41,0.1,192.32,7,0,81871.97,28035.79,99.04
+855,ORD00855,Furniture,Ahmedabad,Ahmedabad,North India,Rail,560,1.31,0.02,14.67,10,1,31292.41,9304.94,89.93
+856,ORD00856,Electronics,Chennai,Delhi,West India,Road - Heavy Truck,79,1.08,0.08,6.83,1,0,68205.62,11133.74,99.97
+857,ORD00857,Apparel,Hyderabad,Hyderabad,South India,Rail,1988,9.36,0.02,372.15,6,0,76906.61,16818.59,98.14
+858,ORD00858,Electronics,Delhi,Ahmedabad,West India,Rail,1600,6.82,0.02,218.24,6,0,63026.86,6769.62,98.91
+859,ORD00859,Furniture,Hyderabad,Ahmedabad,West India,Road - Medium Truck,553,0.74,0.1,40.92,12,1,87555.5,27681.52,89.8
+860,ORD00860,Electronics,Hyderabad,Delhi,East India,Air,62,6.77,0.6,251.84,6,0,98687.23,11125.59,98.74
+861,ORD00861,Apparel,Pune,Ahmedabad,North India,Air,2034,2.72,0.6,3319.49,2,0,43015.69,9300.95,83.4
+862,ORD00862,Pharmaceuticals,Delhi,Bangalore,West India,Air,849,3.29,0.6,1675.93,10,1,72634.49,10099.27,81.62
+863,ORD00863,Electronics,Ahmedabad,Chennai,South India,Road - Heavy Truck,2297,3.36,0.08,617.43,8,1,98785.86,25680.28,86.91
+864,ORD00864,Furniture,Hyderabad,Pune,East India,Road - Medium Truck,416,2.12,0.1,88.19,1,0,15019.62,1531.87,99.56
+865,ORD00865,Furniture,Ahmedabad,Mumbai,East India,Road - Medium Truck,2000,7.33,0.1,1466.0,11,1,95392.87,18965.97,82.67
+866,ORD00866,Groceries,Pune,Chennai,South India,Road - Medium Truck,314,9.35,0.1,293.59,12,1,66178.72,18986.47,88.53
+867,ORD00867,Furniture,Mumbai,Hyderabad,South India,Rail,409,1.6,0.02,13.09,10,1,15581.34,4642.13,89.93
+868,ORD00868,Pharmaceuticals,Chennai,Pune,West India,Rail,2413,9.56,0.02,461.37,10,1,75007.2,23009.23,87.69
+869,ORD00869,Electronics,Pune,Delhi,West India,Rail,567,7.83,0.02,88.79,4,0,54376.38,11936.42,99.56
+870,ORD00870,Furniture,Kolkata,Bangalore,North India,Rail,1265,1.87,0.02,47.31,8,1,84535.58,21138.14,89.76
+871,ORD00871,Groceries,Chennai,Ahmedabad,East India,Rail,555,3.43,0.02,38.07,10,1,30977.99,4513.47,89.81
+872,ORD00872,Furniture,Delhi,Bangalore,West India,Air,1414,1.06,0.6,899.3,12,1,19506.71,3608.16,85.5
+873,ORD00873,Groceries,Ahmedabad,Hyderabad,West India,Air,702,3.34,0.6,1406.81,6,0,99151.01,23361.68,92.97
+874,ORD00874,Pharmaceuticals,Pune,Mumbai,South India,Air,1209,1.18,0.6,855.97,12,1,31824.59,3917.0,85.72
+875,ORD00875,Apparel,Ahmedabad,Bangalore,South India,Rail,2427,7.65,0.02,371.33,12,1,87256.27,33485.73,88.14
+876,ORD00876,Furniture,Delhi,Hyderabad,North India,Air,1242,7.11,0.6,5298.37,12,1,90235.72,30415.76,63.51
+877,ORD00877,Electronics,Hyderabad,Ahmedabad,South India,Road - Medium Truck,1799,4.08,0.1,733.99,1,0,69547.3,24309.09,96.33
+878,ORD00878,Groceries,Chennai,Delhi,North India,Road - Heavy Truck,2161,1.61,0.08,278.34,3,0,66759.29,14819.38,98.61
+879,ORD00879,Groceries,Mumbai,Ahmedabad,West India,Road - Medium Truck,1289,4.27,0.1,550.4,11,1,70358.49,7995.07,87.25
+880,ORD00880,Electronics,Ahmedabad,Chennai,North India,Rail,1873,6.51,0.02,243.86,2,0,39895.69,14522.03,98.78
+881,ORD00881,Groceries,Kolkata,Bangalore,North India,Air,437,3.1,0.6,812.82,8,1,80462.65,27813.61,85.94
+882,ORD00882,Groceries,Ahmedabad,Mumbai,North India,Rail,2251,1.1,0.02,49.52,1,0,22564.54,3523.22,99.75
+883,ORD00883,Electronics,Ahmedabad,Hyderabad,North India,Road - Medium Truck,530,9.67,0.1,512.51,3,0,22163.1,4881.85,97.44
+884,ORD00884,Electronics,Mumbai,Mumbai,East India,Road - Heavy Truck,894,1.72,0.08,123.01,5,0,67000.85,25035.12,99.38
+885,ORD00885,Furniture,Kolkata,Delhi,East India,Rail,752,9.68,0.02,145.59,1,0,45189.88,5261.52,99.27
+886,ORD00886,Pharmaceuticals,Chennai,Mumbai,North India,Air,2058,1.83,0.6,2259.68,6,0,71034.64,17275.63,88.7
+887,ORD00887,Pharmaceuticals,Chennai,Hyderabad,East India,Road - Medium Truck,630,0.85,0.1,53.55,3,0,33472.38,5027.94,99.73
+888,ORD00888,Furniture,Pune,Ahmedabad,North India,Road - Medium Truck,1778,7.43,0.1,1321.05,7,0,12064.17,3902.88,93.39
+889,ORD00889,Apparel,Chennai,Hyderabad,South India,Rail,636,6.93,0.02,88.15,12,1,55910.91,21180.87,89.56
+890,ORD00890,Pharmaceuticals,Chennai,Mumbai,East India,Air,1345,8.3,0.6,6698.1,1,0,99282.65,26797.56,66.51
+891,ORD00891,Apparel,Hyderabad,Kolkata,South India,Road - Heavy Truck,2296,5.55,0.08,1019.42,2,0,43644.22,13145.32,94.9
+892,ORD00892,Electronics,Mumbai,Bangalore,East India,Road - Medium Truck,451,3.1,0.1,139.81,7,0,40829.82,4465.47,99.3
+893,ORD00893,Apparel,Mumbai,Delhi,South India,Air,1479,1.41,0.6,1251.23,9,1,71543.28,10043.28,83.74
+894,ORD00894,Pharmaceuticals,Pune,Ahmedabad,South India,Rail,1645,9.49,0.02,312.22,11,1,22163.89,3505.76,88.44
+895,ORD00895,Groceries,Kolkata,Delhi,East India,Rail,2153,0.59,0.02,25.41,3,0,72756.15,14749.94,99.87
+896,ORD00896,Groceries,Kolkata,Kolkata,West India,Road - Medium Truck,1763,6.94,0.1,1223.52,6,0,72144.74,24894.89,93.88
+897,ORD00897,Electronics,Mumbai,Mumbai,South India,Road - Medium Truck,406,3.4,0.1,138.04,6,0,95008.19,26416.61,99.31
+898,ORD00898,Electronics,Pune,Bangalore,West India,Road - Heavy Truck,285,2.07,0.08,47.2,8,1,13035.59,4096.37,89.76
+899,ORD00899,Furniture,Delhi,Pune,East India,Air,2230,5.39,0.6,7211.82,10,1,71298.79,19846.63,53.94
+900,ORD00900,Furniture,Chennai,Bangalore,North India,Road - Medium Truck,2213,9.95,0.1,2201.93,8,1,69987.42,27105.65,78.99
+901,ORD00901,Groceries,Bangalore,Hyderabad,North India,Rail,2154,8.47,0.02,364.89,8,1,38562.7,14836.15,88.18
+902,ORD00902,Apparel,Kolkata,Ahmedabad,East India,Rail,1073,9.18,0.02,197.0,2,0,84014.01,12162.45,99.02
+903,ORD00903,Pharmaceuticals,Delhi,Ahmedabad,West India,Rail,2379,2.52,0.02,119.9,11,1,42394.04,5217.99,89.4
+904,ORD00904,Apparel,Bangalore,Pune,East India,Road - Heavy Truck,1935,3.88,0.08,600.62,1,0,36212.42,10640.37,97.0
+905,ORD00905,Groceries,Mumbai,Ahmedabad,North India,Road - Heavy Truck,2065,1.46,0.08,241.19,3,0,23766.72,5734.22,98.79
+906,ORD00906,Apparel,Pune,Bangalore,East India,Road - Medium Truck,1074,7.81,0.1,838.79,5,0,26479.05,7451.0,95.81
+907,ORD00907,Electronics,Hyderabad,Chennai,North India,Road - Heavy Truck,1849,9.9,0.08,1464.41,7,0,20374.26,5987.56,92.68
+908,ORD00908,Furniture,Chennai,Ahmedabad,East India,Road - Medium Truck,597,3.21,0.1,191.64,1,0,42481.87,7511.76,99.04
+909,ORD00909,Apparel,Pune,Pune,South India,Road - Heavy Truck,2303,4.5,0.08,829.08,3,0,52078.92,10180.34,95.85
+910,ORD00910,Furniture,Delhi,Hyderabad,West India,Road - Heavy Truck,136,9.6,0.08,104.45,1,0,16981.74,5039.57,99.48
+911,ORD00911,Furniture,Bangalore,Bangalore,South India,Road - Heavy Truck,1235,4.63,0.08,457.44,7,0,31811.22,11936.06,97.71
+912,ORD00912,Furniture,Ahmedabad,Mumbai,South India,Rail,1129,7.78,0.02,175.67,7,0,99454.42,32401.62,99.12
+913,ORD00913,Furniture,Pune,Delhi,East India,Road - Medium Truck,2471,9.93,0.1,2453.7,2,0,64746.25,23009.66,87.73
+914,ORD00914,Groceries,Pune,Kolkata,South India,Road - Medium Truck,1796,9.33,0.1,1675.67,1,0,6677.83,2271.18,91.62
+915,ORD00915,Apparel,Mumbai,Kolkata,East India,Road - Medium Truck,2012,3.69,0.1,742.43,1,0,10828.22,2943.96,96.29
+916,ORD00916,Electronics,Delhi,Delhi,East India,Rail,1762,9.46,0.02,333.37,3,0,28462.02,3741.85,98.33
+917,ORD00917,Apparel,Ahmedabad,Hyderabad,East India,Road - Medium Truck,1197,3.21,0.1,384.24,3,0,91305.79,33762.28,98.08
+918,ORD00918,Apparel,Hyderabad,Hyderabad,East India,Rail,105,1.56,0.02,3.28,3,0,69881.34,11800.23,99.98
+919,ORD00919,Furniture,Mumbai,Delhi,South India,Road - Medium Truck,910,6.68,0.1,607.88,2,0,60511.09,22620.9,96.96
+920,ORD00920,Apparel,Ahmedabad,Chennai,South India,Road - Medium Truck,454,7.19,0.1,326.43,6,0,12113.56,2859.12,98.37
+921,ORD00921,Apparel,Hyderabad,Ahmedabad,North India,Road - Heavy Truck,1762,1.71,0.08,241.04,9,1,57297.09,18578.14,88.79
+922,ORD00922,Furniture,Kolkata,Bangalore,East India,Air,1766,1.14,0.6,1207.94,1,0,54757.46,6256.96,93.96
+923,ORD00923,Groceries,Ahmedabad,Mumbai,South India,Road - Heavy Truck,299,9.58,0.08,229.15,12,1,80467.09,15438.34,88.85
+924,ORD00924,Apparel,Chennai,Bangalore,North India,Air,1623,7.63,0.6,7430.09,10,1,58437.37,16533.45,52.85
+925,ORD00925,Groceries,Kolkata,Kolkata,South India,Road - Medium Truck,2475,5.93,0.1,1467.68,9,1,71188.57,9699.69,82.66
+926,ORD00926,Furniture,Kolkata,Delhi,South India,Rail,2311,7.23,0.02,334.17,9,1,16314.82,5429.92,88.33
+927,ORD00927,Furniture,Mumbai,Delhi,East India,Rail,1157,9.31,0.02,215.43,4,0,87971.37,33828.86,98.92
+928,ORD00928,Apparel,Hyderabad,Delhi,North India,Rail,2299,3.58,0.02,164.61,10,1,30083.63,10827.6,89.18
+929,ORD00929,Pharmaceuticals,Mumbai,Pune,East India,Rail,1195,2.58,0.02,61.66,9,1,21789.85,2364.6,89.69
+930,ORD00930,Groceries,Bangalore,Ahmedabad,South India,Road - Medium Truck,953,8.26,0.1,787.18,11,1,35804.99,12131.6,86.06
+931,ORD00931,Furniture,Chennai,Ahmedabad,South India,Air,2012,4.0,0.6,4828.8,3,0,13900.65,4803.31,75.86
+932,ORD00932,Pharmaceuticals,Chennai,Mumbai,South India,Rail,717,0.7,0.02,10.04,11,1,89099.04,13788.1,89.95
+933,ORD00933,Pharmaceuticals,Bangalore,Delhi,North India,Road - Heavy Truck,1913,4.55,0.08,696.33,2,0,91367.45,9948.49,96.52
+934,ORD00934,Electronics,Bangalore,Chennai,North India,Air,500,4.15,0.6,1245.0,11,1,83523.41,14279.69,83.78
+935,ORD00935,Pharmaceuticals,Hyderabad,Mumbai,South India,Rail,105,1.86,0.02,3.91,2,0,80278.04,31884.92,99.98
+936,ORD00936,Apparel,Ahmedabad,Bangalore,South India,Road - Medium Truck,2355,5.06,0.1,1191.63,5,0,89777.08,13947.81,94.04
+937,ORD00937,Electronics,Kolkata,Mumbai,West India,Road - Heavy Truck,1145,5.66,0.08,518.46,1,0,64611.16,23458.85,97.41
+938,ORD00938,Apparel,Kolkata,Chennai,West India,Road - Medium Truck,968,0.51,0.1,49.37,3,0,7280.08,1979.16,99.75
+939,ORD00939,Apparel,Mumbai,Hyderabad,North India,Road - Heavy Truck,501,5.17,0.08,207.21,5,0,26329.63,2976.83,98.96
+940,ORD00940,Groceries,Hyderabad,Bangalore,West India,Rail,397,9.27,0.02,73.6,3,0,90080.72,19695.98,99.63
+941,ORD00941,Apparel,Ahmedabad,Hyderabad,East India,Road - Medium Truck,1285,8.98,0.1,1153.93,2,0,64352.04,20200.0,94.23
+942,ORD00942,Groceries,Ahmedabad,Ahmedabad,North India,Road - Heavy Truck,658,7.99,0.08,420.59,3,0,78889.48,28086.49,97.9
+943,ORD00943,Furniture,Pune,Hyderabad,East India,Road - Heavy Truck,1190,5.99,0.08,570.25,3,0,18743.44,5680.84,97.15
+944,ORD00944,Furniture,Pune,Pune,West India,Air,1745,4.53,0.6,4742.91,3,0,62165.6,12993.78,76.29
+945,ORD00945,Pharmaceuticals,Chennai,Mumbai,South India,Air,992,5.56,0.6,3309.31,7,0,41539.59,9375.93,83.45
+946,ORD00946,Electronics,Delhi,Hyderabad,East India,Rail,120,0.53,0.02,1.27,3,0,39427.85,10165.37,99.99
+947,ORD00947,Furniture,Chennai,Chennai,North India,Road - Medium Truck,640,3.3,0.1,211.2,7,0,84348.97,19784.04,98.94
+948,ORD00948,Apparel,Delhi,Mumbai,North India,Road - Medium Truck,636,1.61,0.1,102.4,7,0,40858.77,16020.56,99.49
+949,ORD00949,Furniture,Mumbai,Delhi,West India,Air,697,8.46,0.6,3537.97,2,0,7867.64,2284.97,82.31
+950,ORD00950,Apparel,Ahmedabad,Pune,East India,Road - Medium Truck,1974,7.77,0.1,1533.8,12,1,75638.0,13279.6,82.33
+951,ORD00951,Electronics,Bangalore,Bangalore,North India,Air,104,7.92,0.6,494.21,11,1,32243.06,11389.34,87.53
+952,ORD00952,Pharmaceuticals,Kolkata,Chennai,West India,Air,1910,8.41,0.6,9637.86,10,1,57644.81,8712.7,41.81
+953,ORD00953,Furniture,Pune,Delhi,South India,Road - Medium Truck,426,3.08,0.1,131.21,3,0,54542.6,5815.45,99.34
+954,ORD00954,Groceries,Ahmedabad,Hyderabad,West India,Air,2340,2.25,0.6,3159.0,12,1,62482.92,23545.89,74.2
+955,ORD00955,Electronics,Mumbai,Hyderabad,East India,Air,1571,2.07,0.6,1951.18,2,0,66431.48,22691.72,90.24
+956,ORD00956,Electronics,Kolkata,Chennai,South India,Road - Heavy Truck,716,2.78,0.08,159.24,10,1,56448.95,21473.42,89.2
+957,ORD00957,Groceries,Delhi,Delhi,East India,Road - Heavy Truck,398,2.78,0.08,88.52,10,1,97783.0,22544.94,89.56
+958,ORD00958,Pharmaceuticals,Chennai,Hyderabad,West India,Road - Heavy Truck,84,9.46,0.08,63.57,7,0,98151.45,17127.05,99.68
+959,ORD00959,Electronics,Bangalore,Delhi,West India,Rail,448,9.75,0.02,87.36,9,1,36475.23,4779.96,89.56
+960,ORD00960,Electronics,Mumbai,Chennai,South India,Air,203,6.07,0.6,739.33,8,1,32561.34,11544.25,86.3
+961,ORD00961,Pharmaceuticals,Hyderabad,Ahmedabad,South India,Road - Medium Truck,709,7.8,0.1,553.02,12,1,99374.58,24795.35,87.23
+962,ORD00962,Groceries,Chennai,Chennai,North India,Rail,1814,3.26,0.02,118.27,11,1,8801.23,1638.54,89.41
+963,ORD00963,Pharmaceuticals,Mumbai,Ahmedabad,North India,Road - Medium Truck,2087,5.89,0.1,1229.24,5,0,14253.57,5637.54,93.85
+964,ORD00964,Apparel,Mumbai,Mumbai,South India,Air,1260,3.48,0.6,2630.88,6,0,20339.89,6426.69,86.85
+965,ORD00965,Furniture,Mumbai,Ahmedabad,North India,Air,1988,2.95,0.6,3518.76,8,1,97955.96,16755.96,72.41
+966,ORD00966,Furniture,Ahmedabad,Hyderabad,East India,Rail,1692,8.66,0.02,293.05,11,1,43858.16,9389.81,88.53
+967,ORD00967,Electronics,Delhi,Chennai,North India,Rail,1742,1.29,0.02,44.94,11,1,53064.53,17041.77,89.78
+968,ORD00968,Furniture,Pune,Ahmedabad,North India,Road - Medium Truck,1240,8.6,0.1,1066.4,2,0,40703.06,9319.37,94.67
+969,ORD00969,Furniture,Mumbai,Pune,West India,Rail,2241,4.93,0.02,220.96,2,0,90512.02,23582.37,98.9
+970,ORD00970,Furniture,Ahmedabad,Mumbai,East India,Road - Medium Truck,314,4.31,0.1,135.33,8,1,35142.06,3551.76,89.32
+971,ORD00971,Apparel,Delhi,Pune,North India,Air,687,0.86,0.6,354.49,4,0,95110.7,33892.3,98.23
+972,ORD00972,Groceries,Kolkata,Kolkata,South India,Rail,1989,8.0,0.02,318.24,1,0,25274.98,8506.35,98.41
+973,ORD00973,Groceries,Pune,Chennai,East India,Road - Heavy Truck,1171,1.85,0.08,173.31,12,1,43481.51,13500.96,89.13
+974,ORD00974,Furniture,Chennai,Hyderabad,West India,Road - Medium Truck,428,8.39,0.1,359.09,5,0,90020.88,24435.24,98.2
+975,ORD00975,Pharmaceuticals,Pune,Delhi,South India,Air,708,5.02,0.6,2132.5,12,1,96731.03,26017.24,79.34
+976,ORD00976,Apparel,Delhi,Bangalore,West India,Road - Heavy Truck,2419,7.37,0.08,1426.24,12,1,63568.68,19253.7,82.87
+977,ORD00977,Apparel,Delhi,Ahmedabad,South India,Road - Medium Truck,1346,5.24,0.1,705.3,7,0,15792.65,1721.51,96.47
+978,ORD00978,Groceries,Bangalore,Pune,South India,Air,2419,6.57,0.6,9535.7,4,0,14257.38,4767.86,52.32
+979,ORD00979,Apparel,Hyderabad,Delhi,East India,Rail,832,2.49,0.02,41.43,1,0,97315.73,22085.71,99.79
+980,ORD00980,Groceries,Pune,Hyderabad,East India,Rail,560,5.27,0.02,59.02,8,1,71435.13,14667.52,89.7
+981,ORD00981,Apparel,Bangalore,Bangalore,West India,Air,1425,5.47,0.6,4676.85,7,0,15771.1,5476.61,76.62
+982,ORD00982,Electronics,Mumbai,Mumbai,North India,Air,1841,3.21,0.6,3545.77,2,0,65240.19,12354.68,82.27
+983,ORD00983,Electronics,Kolkata,Pune,South India,Air,2281,1.48,0.6,2025.53,10,1,14471.7,3860.6,79.87
+984,ORD00984,Electronics,Hyderabad,Ahmedabad,West India,Road - Medium Truck,2309,7.88,0.1,1819.49,8,1,41202.58,14063.76,80.9
+985,ORD00985,Apparel,Kolkata,Pune,South India,Air,1584,0.57,0.6,541.73,5,0,79308.63,19647.27,97.29
+986,ORD00986,Pharmaceuticals,Hyderabad,Hyderabad,South India,Road - Heavy Truck,1748,9.05,0.08,1265.55,6,0,8104.09,3177.82,93.67
+987,ORD00987,Pharmaceuticals,Pune,Bangalore,West India,Air,1653,2.8,0.6,2777.04,1,0,23302.74,4815.97,86.11
+988,ORD00988,Furniture,Mumbai,Pune,East India,Road - Medium Truck,1353,4.33,0.1,585.85,2,0,54141.32,14552.08,97.07
+989,ORD00989,Pharmaceuticals,Bangalore,Delhi,North India,Road - Medium Truck,884,9.51,0.1,840.68,1,0,13859.17,5437.06,95.8
+990,ORD00990,Furniture,Chennai,Chennai,East India,Air,584,0.74,0.6,259.3,6,0,98424.35,20635.75,98.7
+991,ORD00991,Apparel,Delhi,Kolkata,North India,Road - Medium Truck,1054,5.59,0.1,589.19,7,0,73999.7,11682.39,97.05
+992,ORD00992,Electronics,Mumbai,Bangalore,East India,Road - Medium Truck,2423,6.46,0.1,1565.26,10,1,87359.21,32036.42,82.17
+993,ORD00993,Groceries,Mumbai,Ahmedabad,North India,Rail,430,9.0,0.02,77.4,4,0,12351.24,1810.85,99.61
+994,ORD00994,Groceries,Bangalore,Bangalore,East India,Air,362,1.2,0.6,260.64,6,0,24978.12,6844.7,98.7
+995,ORD00995,Apparel,Hyderabad,Ahmedabad,North India,Road - Heavy Truck,2373,9.08,0.08,1723.75,2,0,64965.27,9326.24,91.38
+996,ORD00996,Pharmaceuticals,Delhi,Bangalore,South India,Road - Medium Truck,1092,5.46,0.1,596.23,1,0,93025.4,31828.31,97.02
+997,ORD00997,Furniture,Kolkata,Kolkata,West India,Rail,938,1.59,0.02,29.83,2,0,7802.27,2796.57,99.85
+998,ORD00998,Groceries,Pune,Pune,South India,Road - Medium Truck,1477,9.56,0.1,1412.01,8,1,72267.94,14773.2,82.94
+999,ORD00999,Apparel,Bangalore,Chennai,West India,Rail,1201,2.14,0.02,51.4,10,1,96377.77,35576.08,89.74
+1000,ORD01000,Pharmaceuticals,Mumbai,Pune,West India,Air,1785,8.89,0.6,9521.19,6,0,61651.33,19635.81,52.39
