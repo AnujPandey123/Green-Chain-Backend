@@ -3,7 +3,10 @@ const cors = require("cors");
 const connectDB = require("./config/db");
 const shipmentRoutes = require("./routes/shipmentRoutes");
 const path = require("path");
-require("dotenv").config();
+
+if (process.env.NODE_ENV !== "production") {
+  require("dotenv").config();
+}
 
 const app = express();
 
@@ -17,18 +20,17 @@ app.use(express.json());
 // API Routes
 app.use("/api", shipmentRoutes);
 
-// Serve Frontend
+// Serve Frontend (if hosting static build)
 app.use(express.static(path.join(__dirname, "../public")));
 
-// Handle React/HTML routing fallback (optional but recommended)
-app.get("/*", (req, res) => {
-    res.sendFile(path.join(__dirname, "../public/index.html"));
+// 404 fallback (Safe for Express 4 & 5)
+app.use((req, res) => {
+  res.status(404).json({ message: "Route not found" });
 });
 
-// ✅ IMPORTANT: Use dynamic port for deployment
+// Dynamic Port (Required for Render)
 const PORT = process.env.PORT || 5000;
 
 app.listen(PORT, () => {
-    console.log(`Server running on port ${PORT}`);
+  console.log(`Server running on port ${PORT}`);
 });
-
