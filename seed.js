@@ -1,28 +1,21 @@
-if (process.env.NODE_ENV !== "production") {
-  require("dotenv").config();
-}
-
+require("dotenv").config();
 const mongoose = require("mongoose");
+const fs = require("fs");
+const csv = require("csv-parser");
 const Shipment = require("./models/Shipment");
-const data = require("./Green_Supply_Chain_1000_Rows_Dataset.csv");
 
 mongoose.connect(process.env.MONGO_URI)
-  .then(async () => {
-
-      const existing = await Shipment.countDocuments();
-
-      if (existing === 0) {
-          await Shipment.insertMany(data);
-          console.log("Data Seeded Successfully");
-      } else {
-          console.log("Data already exists. Skipping seeding.");
-      }
-
-      process.exit();
-  })
+  .then(() => console.log("MongoDB connected"))
   .catch(err => console.error(err));
 
+const results = [];
 
-
-
-
+fs.createReadStream("Green_Supply_Chain_1000_Rows_Dataset.csv")
+  .pipe(csv())
+  .on("data", (data) => results.push(data))
+  .on("end", async () => {
+    await Shipment.deleteMany();
+    await Shipment.insertMany(results);
+    console.log("✅ Data imported successfully");
+    mongoose.connection.close();
+  });
