@@ -4,7 +4,7 @@ if (process.env.NODE_ENV !== "production") {
 
 const mongoose = require("mongoose");
 const Shipment = require("./models/Shipment");
-const data = require("./dataset.json");
+const data = require("./dataset.csv");
 
 mongoose.connect(process.env.MONGO_URI)
   .then(async () => {
@@ -21,6 +21,7 @@ mongoose.connect(process.env.MONGO_URI)
       process.exit();
   })
   .catch(err => console.error(err));
+
 
 
 
