@@ -8,6 +8,13 @@
     "start": "node server.js",
     "seed": "node seed.js"
   },
+  "dependencies": {
+  "cors": "...",
+  "dotenv": "...",
+  "express": "...",
+  "mongoose": "..."
+},
+
   "keywords": [],
   "author": "",
   "license": "ISC",
