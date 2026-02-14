@@ -1,3 +1,6 @@
+if (process.env.NODE_ENV !== "production") {
+  require("dotenv").config();
+}
 
 const mongoose = require("mongoose");
 const Shipment = require("./models/Shipment");
@@ -18,5 +21,6 @@ mongoose.connect(process.env.MONGO_URI)
       process.exit();
   })
   .catch(err => console.error(err));
+
 
 
